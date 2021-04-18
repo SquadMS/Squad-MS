@@ -2321,16 +2321,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation",
-                "reference": "0d8565e658a92054bf41bde5d8194fa71d2135fc"
+                "reference": "52a2f411d04106adaac64b55e2ef24fb8718c28e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/0d8565e658a92054bf41bde5d8194fa71d2135fc.zip",
-                "reference": "0d8565e658a92054bf41bde5d8194fa71d2135fc"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/52a2f411d04106adaac64b55e2ef24fb8718c28e.zip",
+                "reference": "52a2f411d04106adaac64b55e2ef24fb8718c28e"
             },
             "require": {
+                "guzzlehttp/guzzle": "^7.0.1",
                 "illuminate/database": "^8.0",
-                "illuminate/support": "^8.0"
+                "illuminate/support": "^8.0",
+                "xpaw/steamid": "^2.0.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
@@ -2368,7 +2370,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-04-18T03:13:42+00:00"
+            "time": "2021-04-18T16:42:23+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4881,6 +4883,56 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "time": "2021-03-09T10:59:23+00:00"
+        },
+        {
+            "name": "xpaw/steamid",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xPaw/SteamID.php.git",
+                "reference": "11303c1646b0b47b72398bae845aca5d75a8848b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xPaw/SteamID.php/zipball/11303c1646b0b47b72398bae845aca5d75a8848b",
+                "reference": "11303c1646b0b47b72398bae845aca5d75a8848b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "SteamID.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Djundik",
+                    "email": "steamid.php@xpaw.me"
+                }
+            ],
+            "description": "SteamID conversion library",
+            "support": {
+                "issues": "https://github.com/xPaw/SteamID.php/issues",
+                "source": "https://github.com/xPaw/SteamID.php/tree/2.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/xPaw",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-01-01T14:19:03+00:00"
         }
     ],
     "packages-dev": [
