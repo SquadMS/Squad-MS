@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "462ba1311a6bf59537f7b3286d5e75b7",
+    "content-hash": "0a1d64ce19733d9ab833116fbb319c80",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2316,17 +2316,67 @@
             "time": "2020-08-18T17:17:46+00:00"
         },
         {
+            "name": "squadms/default-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SquadMS/SqMS-Default-Theme",
+                "reference": "78de73cf7cf0c64860bfd6a2426e6036f0d02ee3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/78de73cf7cf0c64860bfd6a2426e6036f0d02ee3.zip",
+                "reference": "78de73cf7cf0c64860bfd6a2426e6036f0d02ee3"
+            },
+            "require": {
+                "illuminate/support": "^8.0",
+                "squadms/foundation": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SquadMS\\DefaultTheme\\SquadMSDefaultThemeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SquadMS\\DefaultTheme\\": "src/"
+                }
+            },
+            "notification-url": "https://pkg.skyraptor.eu/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Henninger",
+                    "email": "privat@skyraptor.eu",
+                    "homepage": "https://skyraptor.eu/"
+                }
+            ],
+            "description": "The default theme for SquadMS.",
+            "keywords": [
+                "default-theme",
+                "laravel",
+                "squad",
+                "squadms"
+            ],
+            "time": "2021-04-18T21:30:30+00:00"
+        },
+        {
             "name": "squadms/foundation",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation",
-                "reference": "52a2f411d04106adaac64b55e2ef24fb8718c28e"
+                "reference": "c3afc1287d02af35200ace8ea20560b4fe1c6680"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/52a2f411d04106adaac64b55e2ef24fb8718c28e.zip",
-                "reference": "52a2f411d04106adaac64b55e2ef24fb8718c28e"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/c3afc1287d02af35200ace8ea20560b4fe1c6680.zip",
+                "reference": "c3afc1287d02af35200ace8ea20560b4fe1c6680"
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.0.1",
@@ -2370,7 +2420,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-04-18T16:42:23+00:00"
+            "time": "2021-04-18T22:00:05+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7440,7 +7490,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "squadms/foundation": 20
+        "squadms/foundation": 20,
+        "squadms/default-theme": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
