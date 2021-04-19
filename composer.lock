@@ -2321,12 +2321,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme",
-                "reference": "b5ac486370adda110cd156335d03a10fa37b4afc"
+                "reference": "664a58871ce3789b736ba7af5f55deb6e56c02a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/b5ac486370adda110cd156335d03a10fa37b4afc.zip",
-                "reference": "b5ac486370adda110cd156335d03a10fa37b4afc"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/664a58871ce3789b736ba7af5f55deb6e56c02a9.zip",
+                "reference": "664a58871ce3789b736ba7af5f55deb6e56c02a9"
             },
             "require": {
                 "illuminate/support": "^8.0",
@@ -2363,7 +2363,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-04-19T19:07:54+00:00"
+            "time": "2021-04-19T20:12:40+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -2371,12 +2371,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation",
-                "reference": "8d9b37ca3ae3371e9ad82f5f96aae35212796dd1"
+                "reference": "ff28babefaf765ea0118a17deea3722bdedd7f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/8d9b37ca3ae3371e9ad82f5f96aae35212796dd1.zip",
-                "reference": "8d9b37ca3ae3371e9ad82f5f96aae35212796dd1"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/ff28babefaf765ea0118a17deea3722bdedd7f28.zip",
+                "reference": "ff28babefaf765ea0118a17deea3722bdedd7f28"
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.0.1",
@@ -2422,7 +2422,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-04-19T02:00:09+00:00"
+            "time": "2021-04-19T19:44:25+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
