@@ -858,16 +858,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.37.0",
+            "version": "v8.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cf4082973abc796ec285190f0603380021f6d26f"
+                "reference": "26a73532c54d2c090692bf2e3e64e449669053ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/cf4082973abc796ec285190f0603380021f6d26f",
-                "reference": "cf4082973abc796ec285190f0603380021f6d26f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/26a73532c54d2c090692bf2e3e64e449669053ba",
+                "reference": "26a73532c54d2c090692bf2e3e64e449669053ba",
                 "shasum": ""
             },
             "require": {
@@ -1022,7 +1022,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-04-13T13:49:49+00:00"
+            "time": "2021-04-20T13:50:21+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -2321,12 +2321,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme",
-                "reference": "664a58871ce3789b736ba7af5f55deb6e56c02a9"
+                "reference": "a4159c9c77b12671a347bacc83512262453e7fbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/664a58871ce3789b736ba7af5f55deb6e56c02a9.zip",
-                "reference": "664a58871ce3789b736ba7af5f55deb6e56c02a9"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/a4159c9c77b12671a347bacc83512262453e7fbb.zip",
+                "reference": "a4159c9c77b12671a347bacc83512262453e7fbb"
             },
             "require": {
                 "illuminate/support": "^8.0",
@@ -2363,7 +2363,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-04-19T20:12:40+00:00"
+            "time": "2021-04-23T10:37:48+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -2371,12 +2371,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation",
-                "reference": "ff28babefaf765ea0118a17deea3722bdedd7f28"
+                "reference": "79044d150921af68c674e129134b0932155906cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/ff28babefaf765ea0118a17deea3722bdedd7f28.zip",
-                "reference": "ff28babefaf765ea0118a17deea3722bdedd7f28"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/79044d150921af68c674e129134b0932155906cb.zip",
+                "reference": "79044d150921af68c674e129134b0932155906cb"
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.0.1",
@@ -2422,7 +2422,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-04-19T19:44:25+00:00"
+            "time": "2021-04-23T10:35:06+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5440,16 +5440,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.4.12",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "d1a91b03885c9c29bc2d88d61a4b10bd1f678156"
+                "reference": "7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/d1a91b03885c9c29bc2d88d61a4b10bd1f678156",
-                "reference": "d1a91b03885c9c29bc2d88d61a4b10bd1f678156",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116",
+                "reference": "7f2d520f8c7d6fc0e5e4949c1363f6ddff0ff116",
                 "shasum": ""
             },
             "require": {
@@ -5496,7 +5496,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2021-04-13T15:35:40+00:00"
+            "time": "2021-04-20T16:17:55+00:00"
         },
         {
             "name": "mockery/mockery",
