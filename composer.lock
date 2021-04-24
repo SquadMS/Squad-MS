@@ -2321,12 +2321,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme",
-                "reference": "a4159c9c77b12671a347bacc83512262453e7fbb"
+                "reference": "8ad4e0fcf47378c7a9a22fa7eb7786e56cb7fc95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/a4159c9c77b12671a347bacc83512262453e7fbb.zip",
-                "reference": "a4159c9c77b12671a347bacc83512262453e7fbb"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/8ad4e0fcf47378c7a9a22fa7eb7786e56cb7fc95.zip",
+                "reference": "8ad4e0fcf47378c7a9a22fa7eb7786e56cb7fc95"
             },
             "require": {
                 "illuminate/support": "^8.0",
@@ -2336,7 +2336,8 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "SquadMS\\DefaultTheme\\SquadMSDefaultThemeServiceProvider"
+                        "SquadMS\\DefaultTheme\\SquadMSDefaultThemeServiceProvider",
+                        "SquadMS\\DefaultTheme\\Providers\\ViewServiceProvider"
                     ]
                 }
             },
@@ -2363,7 +2364,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-04-23T10:37:48+00:00"
+            "time": "2021-04-24T05:56:44+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -2371,12 +2372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation",
-                "reference": "79044d150921af68c674e129134b0932155906cb"
+                "reference": "3a3f4ced9f23331c0884cb3d6eef7b57b4c5e0d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/79044d150921af68c674e129134b0932155906cb.zip",
-                "reference": "79044d150921af68c674e129134b0932155906cb"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/3a3f4ced9f23331c0884cb3d6eef7b57b4c5e0d1.zip",
+                "reference": "3a3f4ced9f23331c0884cb3d6eef7b57b4c5e0d1"
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.0.1",
@@ -2422,7 +2423,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-04-23T10:35:06+00:00"
+            "time": "2021-04-24T05:55:21+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
