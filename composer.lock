@@ -2598,12 +2598,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme",
-                "reference": "cd0158866874c64a58d260e20e7ec0dc95940296"
+                "reference": "3e0ef47d4375eafa8f2f1066a22697f1f2c621c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/cd0158866874c64a58d260e20e7ec0dc95940296.zip",
-                "reference": "cd0158866874c64a58d260e20e7ec0dc95940296"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/3e0ef47d4375eafa8f2f1066a22697f1f2c621c0.zip",
+                "reference": "3e0ef47d4375eafa8f2f1066a22697f1f2c621c0"
             },
             "require": {
                 "illuminate/support": "^8.0",
@@ -2641,7 +2641,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-05-01T07:12:37+00:00"
+            "time": "2021-05-01T07:58:38+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -2649,12 +2649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation",
-                "reference": "d4e38ff500e95f077256a39c0cb2285096af3dbf"
+                "reference": "1d617014904e19646346601e4a6abe8de6e3f36b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/d4e38ff500e95f077256a39c0cb2285096af3dbf.zip",
-                "reference": "d4e38ff500e95f077256a39c0cb2285096af3dbf"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/1d617014904e19646346601e4a6abe8de6e3f36b.zip",
+                "reference": "1d617014904e19646346601e4a6abe8de6e3f36b"
             },
             "require": {
                 "codezero/laravel-localized-routes": "^2.5",
@@ -2701,7 +2701,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-05-01T07:09:23+00:00"
+            "time": "2021-05-01T07:57:51+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

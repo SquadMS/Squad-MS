@@ -46,7 +46,7 @@ return [
      * If you want to automatically set the locale
      * for localized routes set this to true.
      */
-    'use_locale_middleware' => false,
+    'use_locale_middleware' => true,
 
     /**
      * If true, this package will use 'codezero/laravel-localizer'
