@@ -2598,12 +2598,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme",
-                "reference": "dc41faa260503e4a967e02e2df1845ba0181fc2d"
+                "reference": "6fb786d7a43b0a1764894b1a197410efa953d5fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/dc41faa260503e4a967e02e2df1845ba0181fc2d.zip",
-                "reference": "dc41faa260503e4a967e02e2df1845ba0181fc2d"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/default-theme/6fb786d7a43b0a1764894b1a197410efa953d5fd.zip",
+                "reference": "6fb786d7a43b0a1764894b1a197410efa953d5fd"
             },
             "require": {
                 "illuminate/support": "^8.0",
@@ -2641,7 +2641,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-05-01T08:35:58+00:00"
+            "time": "2021-05-01T08:40:17+00:00"
         },
         {
             "name": "squadms/foundation",
