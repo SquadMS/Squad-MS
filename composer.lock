@@ -2649,12 +2649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation",
-                "reference": "758886ededa349fc286e59f5cbcfbb09371fd4e4"
+                "reference": "12cd717e64042f20dec326e930a6227ef16b2cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/758886ededa349fc286e59f5cbcfbb09371fd4e4.zip",
-                "reference": "758886ededa349fc286e59f5cbcfbb09371fd4e4"
+                "url": "https://pkg.skyraptor.eu/zipball/squadms/foundation/12cd717e64042f20dec326e930a6227ef16b2cdf.zip",
+                "reference": "12cd717e64042f20dec326e930a6227ef16b2cdf"
             },
             "require": {
                 "codezero/laravel-localized-routes": "^2.5",
@@ -2701,7 +2701,7 @@
                 "squad",
                 "squadms"
             ],
-            "time": "2021-05-01T08:36:37+00:00"
+            "time": "2021-05-01T08:37:51+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
