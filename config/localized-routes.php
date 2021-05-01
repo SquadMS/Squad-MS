@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Config;
-
 return [
 
     /**
@@ -10,6 +8,7 @@ return [
     'supported-locales' => [
         'en',
         'de',
+        'ar',
     ],
 
     /**
