@@ -1371,16 +1371,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "19a9673b833cc37770439097b381d86cd125bfe8"
+                "reference": "2651c497f005de305c7ba3f232cbd87b8c00ee8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/19a9673b833cc37770439097b381d86cd125bfe8",
-                "reference": "19a9673b833cc37770439097b381d86cd125bfe8",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/2651c497f005de305c7ba3f232cbd87b8c00ee8c",
+                "reference": "2651c497f005de305c7ba3f232cbd87b8c00ee8c",
                 "shasum": ""
             },
             "require": {
@@ -1468,7 +1468,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-01T19:00:49+00:00"
+            "time": "2021-05-08T16:08:00+00:00"
         },
         {
             "name": "league/flysystem",
@@ -2739,12 +2739,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "f9460c2727921aa5d5a07e2681eef0503416279d"
+                "reference": "1b34c48134c44f5ab004409c34792f9536955736"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/f9460c2727921aa5d5a07e2681eef0503416279d",
-                "reference": "f9460c2727921aa5d5a07e2681eef0503416279d",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/1b34c48134c44f5ab004409c34792f9536955736",
+                "reference": "1b34c48134c44f5ab004409c34792f9536955736",
                 "shasum": ""
             },
             "require": {
@@ -2788,7 +2788,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-05-07T18:24:29+00:00"
+            "time": "2021-05-08T16:43:38+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -2796,12 +2796,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "ed968dd097148505ed930ae6a3f38ef608194a0a"
+                "reference": "417cc47889857c0406c2e803cf88f3a6e2780dd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/ed968dd097148505ed930ae6a3f38ef608194a0a",
-                "reference": "ed968dd097148505ed930ae6a3f38ef608194a0a",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/417cc47889857c0406c2e803cf88f3a6e2780dd1",
+                "reference": "417cc47889857c0406c2e803cf88f3a6e2780dd1",
                 "shasum": ""
             },
             "require": {
@@ -2825,7 +2825,9 @@
                 "laravel": {
                     "providers": [
                         "SquadMS\\Foundation\\SquadMSFoundationServiceProvider",
-                        "SquadMS\\Foundation\\Providers\\ScheduleServiceProvider"
+                        "SquadMS\\Foundation\\Providers\\ScheduleServiceProvider",
+                        "SquadMS\\Foundation\\Providers\\PermissionsServiceProvider",
+                        "SquadMS\\Foundation\\Providers\\RouteServiceProvider"
                     ]
                 }
             },
@@ -2856,7 +2858,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-05-08T13:31:36+00:00"
+            "time": "2021-05-08T19:11:19+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
