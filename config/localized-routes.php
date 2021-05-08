@@ -9,6 +9,7 @@ return [
         'en',
         'de',
         'ar',
+        'he',
     ],
 
     /**
