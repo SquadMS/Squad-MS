@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7379e592ca2ededb22400dd5f6df716",
+    "content-hash": "a982c8e29e7448a92dc11533089aa189",
     "packages": [
         {
             "name": "0.0.0/composer-include-files",
@@ -1622,6 +1622,78 @@
             "time": "2021-01-18T20:58:21+00:00"
         },
         {
+            "name": "livewire/livewire",
+            "version": "v2.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/livewire/livewire.git",
+                "reference": "33101c83b75728651b9e668a4559f97def7c9138"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/33101c83b75728651b9e668a4559f97def7c9138",
+                "reference": "33101c83b75728651b9e668a4559f97def7c9138",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^7.0|^8.0",
+                "illuminate/support": "^7.0|^8.0",
+                "illuminate/validation": "^7.0|^8.0",
+                "php": "^7.2.5|^8.0",
+                "symfony/http-kernel": "^5.0"
+            },
+            "require-dev": {
+                "calebporzio/sushi": "^2.1",
+                "laravel/framework": "^7.0|^8.0",
+                "mockery/mockery": "^1.3.1",
+                "orchestra/testbench": "^5.0|^6.0",
+                "orchestra/testbench-dusk": "^5.2|^6.0",
+                "phpunit/phpunit": "^8.4|^9.0",
+                "psy/psysh": "@stable"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Livewire\\LivewireServiceProvider"
+                    ],
+                    "aliases": {
+                        "Livewire": "Livewire\\Livewire"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Livewire\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caleb Porzio",
+                    "email": "calebporzio@gmail.com"
+                }
+            ],
+            "description": "A front-end framework for Laravel.",
+            "support": {
+                "issues": "https://github.com/livewire/livewire/issues",
+                "source": "https://github.com/livewire/livewire/tree/v2.4.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/calebporzio",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-04-28T15:31:15+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "2.2.0",
             "source": {
@@ -2739,16 +2811,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "1b34c48134c44f5ab004409c34792f9536955736"
+                "reference": "6870f0b8884fedeb0750ad8c84c543c84c3672fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/1b34c48134c44f5ab004409c34792f9536955736",
-                "reference": "1b34c48134c44f5ab004409c34792f9536955736",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/6870f0b8884fedeb0750ad8c84c543c84c3672fb",
+                "reference": "6870f0b8884fedeb0750ad8c84c543c84c3672fb",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "^8.0",
+                "livewire/livewire": "^2.4",
                 "squadms/foundation": "dev-master"
             },
             "default-branch": true,
@@ -2757,7 +2830,8 @@
                 "laravel": {
                     "providers": [
                         "SquadMS\\DefaultTheme\\SquadMSDefaultThemeServiceProvider",
-                        "SquadMS\\DefaultTheme\\Providers\\ViewServiceProvider"
+                        "SquadMS\\DefaultTheme\\Providers\\ViewServiceProvider",
+                        "SquadMS\\DefaultTheme\\Providers\\LivewireServiceProvider"
                     ]
                 }
             },
@@ -2788,7 +2862,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-05-08T16:43:38+00:00"
+            "time": "2021-05-09T12:53:17+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -7926,8 +8000,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "squadms/foundation": 20,
-        "squadms/default-theme": 20
+        "squadms/default-theme": 20,
+        "squadms/foundation": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -11,8 +11,9 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "squadms/foundation": "dev-master",
-        "squadms/default-theme": "dev-master"
+        "livewire/livewire": "^2.4",
+        "squadms/default-theme": "dev-master",
+        "squadms/foundation": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
