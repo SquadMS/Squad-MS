@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use SquadMS\Foundation\SquadMSRouter;
+use SquadMS\Foundation\Facades\SquadMSRouter;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +14,4 @@ use SquadMS\Foundation\SquadMSRouter;
 |
 */
 
-SquadMSRouter::getInstance()->register();
+SquadMSRouter::register();
