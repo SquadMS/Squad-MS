@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a982c8e29e7448a92dc11533089aa189",
+    "content-hash": "84c2ecd6962335c0628bddb4d2516e25",
     "packages": [
         {
             "name": "0.0.0/composer-include-files",
@@ -56,6 +56,80 @@
                 "source": "https://github.com/hopeseekr-contribs/composer-include-files/tree/1.6.0"
             },
             "time": "2020-07-09T12:26:27+00:00"
+        },
+        {
+            "name": "asantibanez/livewire-select",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bumbummen99/livewire-select.git",
+                "reference": "0673f2a7b84271dfff1193f6ade2ff59de3d020a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bumbummen99/livewire-select/zipball/0673f2a7b84271dfff1193f6ade2ff59de3d020a",
+                "reference": "0673f2a7b84271dfff1193f6ade2ff59de3d020a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "livewire/livewire": "^2.0",
+                "php": "^7.2 | ^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0|^6.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Asantibanez\\LivewireSelect\\LivewireSelectServiceProvider"
+                    ],
+                    "aliases": {
+                        "LivewireSelect": "Asantibanez\\LivewireSelect\\LivewireSelectFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Asantibanez\\LivewireSelect\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Asantibanez\\LivewireSelect\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ],
+                "test-coverage": [
+                    "vendor/bin/phpunit --coverage-html coverage"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrés Santibáñez",
+                    "email": "santibanez.andres@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Livewire dropdown select component",
+            "homepage": "https://github.com/asantibanez/livewire-select",
+            "keywords": [
+                "asantibanez",
+                "livewire-select"
+            ],
+            "support": {
+                "source": "https://github.com/bumbummen99/livewire-select/tree/master"
+            },
+            "time": "2021-05-15T01:21:35+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -2811,15 +2885,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "678b1aec153587d95f62032223372e0adb8d3619"
+                "reference": "6e7456b2f2a7152a5d85efbfe4f8cd2808780dcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/678b1aec153587d95f62032223372e0adb8d3619",
-                "reference": "678b1aec153587d95f62032223372e0adb8d3619",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/6e7456b2f2a7152a5d85efbfe4f8cd2808780dcd",
+                "reference": "6e7456b2f2a7152a5d85efbfe4f8cd2808780dcd",
                 "shasum": ""
             },
             "require": {
+                "asantibanez/livewire-select": "dev-master",
                 "illuminate/support": "^8.0",
                 "livewire/livewire": "^2.4",
                 "squadms/foundation": "dev-master"
@@ -2862,7 +2937,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-05-15T01:04:34+00:00"
+            "time": "2021-05-15T03:06:36+00:00"
         },
         {
             "name": "squadms/foundation",
