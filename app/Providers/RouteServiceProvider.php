@@ -67,15 +67,17 @@ class RouteServiceProvider extends ServiceProvider
 
         /* Admin Menu */
         SquadMSMenu::register(
-            'admin',
+            'admin-system',
             (new SquadMSMenuEntry('horizon.index', '<i class="bi bi-house-fill"></i> Horizon', true))->setView('sqms-foundation::components.navigation.item')
             ->setCondition(fn () => User::current() && User::current()->isSystemAdmin())
+            ->setOrder(200)
         );
 
         SquadMSMenu::register(
-            'admin',
+            'admin-system',
             (new SquadMSMenuEntry(url(Config::get('websockets.path')), '<i class="bi bi-shield-lock-fill"></i> WebSockets'))->setView('sqms-foundation::components.navigation.item')
             ->setCondition(fn () => User::current() && User::current()->isSystemAdmin())
+            ->setOrder(300)
         );
     }
 }

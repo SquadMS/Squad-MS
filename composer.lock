@@ -4413,12 +4413,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "cfc064e299e0d816c0e3c424e7255539c0ca63e9"
+                "reference": "8137249320c0393e3813487fc9ba84095d2dcae1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/cfc064e299e0d816c0e3c424e7255539c0ca63e9",
-                "reference": "cfc064e299e0d816c0e3c424e7255539c0ca63e9",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/8137249320c0393e3813487fc9ba84095d2dcae1",
+                "reference": "8137249320c0393e3813487fc9ba84095d2dcae1",
                 "shasum": ""
             },
             "require": {
@@ -4487,7 +4487,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-05-22T00:41:59+00:00"
+            "time": "2021-05-22T23:24:20+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
