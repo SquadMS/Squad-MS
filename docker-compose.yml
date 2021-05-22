@@ -10,6 +10,7 @@ services:
         image: sqms-8.0/squadms
         ports:
             - '${APP_PORT:-80}:80'
+            - '${APP_ECHO_PORT:-6001}:6001'
         environment:
             WWWUSER: '${WWWUSER}'
             LARAVEL_SAIL: 1

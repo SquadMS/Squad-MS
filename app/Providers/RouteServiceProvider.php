@@ -2,11 +2,16 @@
 
 namespace App\Providers;
 
+use App\Models\User;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
+use SquadMS\Foundation\Facades\SquadMSMenu;
+use SquadMS\Foundation\Helpers\NavigationHelper;
+use SquadMS\Foundation\Menu\SquadMSMenuEntry;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -59,5 +64,18 @@ class RouteServiceProvider extends ServiceProvider
         RateLimiter::for('api', function (Request $request) {
             return Limit::perMinute(60)->by(optional($request->user())->id ?: $request->ip());
         });
+
+        /* Admin Menu */
+        SquadMSMenu::register(
+            'admin',
+            (new SquadMSMenuEntry('horizon.index', '<i class="bi bi-house-fill"></i> Horizon', true))->setView('sqms-foundation::components.navigation.item')
+            ->setCondition(fn () => User::current() && User::current()->isSystemAdmin())
+        );
+
+        SquadMSMenu::register(
+            'admin',
+            (new SquadMSMenuEntry(url(Config::get('websockets.path')), '<i class="bi bi-shield-lock-fill"></i> WebSockets'))->setView('sqms-foundation::components.navigation.item')
+            ->setCondition(fn () => User::current() && User::current()->isSystemAdmin())
+        );
     }
 }
