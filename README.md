@@ -1,4 +1,4 @@
-<p align="center"><a href="https://squadms.com" target="_blank"><img src="https://squadms.com/img/logo.svg" width="400"></a></p>
+<p align="center"><a href="https://squadms.com" target="_blank"><img src="https://raw.githubusercontent.com/SquadMS/Squad-MS/master/logo-white-border.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
