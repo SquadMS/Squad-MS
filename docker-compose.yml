@@ -7,7 +7,7 @@ services:
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
-        image: sqms-8.0/app
+        image: sqms-8.0/squadms
         ports:
             - '${APP_PORT:-80}:80'
         environment:
