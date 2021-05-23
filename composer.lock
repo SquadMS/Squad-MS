@@ -4413,12 +4413,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "8137249320c0393e3813487fc9ba84095d2dcae1"
+                "reference": "c8a9c28a662ab0ea6ff9a295f3063f8116a6b52b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/8137249320c0393e3813487fc9ba84095d2dcae1",
-                "reference": "8137249320c0393e3813487fc9ba84095d2dcae1",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/c8a9c28a662ab0ea6ff9a295f3063f8116a6b52b",
+                "reference": "c8a9c28a662ab0ea6ff9a295f3063f8116a6b52b",
                 "shasum": ""
             },
             "require": {
@@ -4455,7 +4455,8 @@
                     "aliases": {
                         "SquadMSPermissions": "SquadMS\\Foundation\\Facades\\SquadMSPermissions",
                         "SquadMSRouter": "SquadMS\\Foundation\\Facades\\SquadMSRouter",
-                        "SquadMSMenu": "SquadMS\\Foundation\\Facades\\SquadMSMenu"
+                        "SquadMSMenu": "SquadMS\\Foundation\\Facades\\SquadMSMenu",
+                        "SquadMSAdminMenu": "SquadMS\\Foundation\\Facades\\SquadMSAdminMenu"
                     }
                 }
             },
@@ -4487,7 +4488,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-05-22T23:24:20+00:00"
+            "time": "2021-05-23T03:24:39+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
