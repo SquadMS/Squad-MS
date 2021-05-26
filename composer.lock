@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f417d703722e305cdb8ff9714d6d7ff1",
+    "content-hash": "cbcd1ecda1e6cc9456f14f1a29d532fd",
     "packages": [
         {
             "name": "0.0.0/composer-include-files",
@@ -848,6 +848,95 @@
                 }
             ],
             "time": "2020-11-24T19:55:57+00:00"
+        },
+        {
+            "name": "dsg/php-source-query-class",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Deutsche-Squad-Gemeinschaft/PHP-Source-Query.git",
+                "reference": "b2aad8f0f993678160cf18cd6dd7e14451ee39e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Deutsche-Squad-Gemeinschaft/PHP-Source-Query/zipball/b2aad8f0f993678160cf18cd6dd7e14451ee39e2",
+                "reference": "b2aad8f0f993678160cf18cd6dd7e14451ee39e2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "9.2",
+                "vimeo/psalm": "^3.12"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "xPaw\\SourceQuery\\": "SourceQuery/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "description": "xPaw's SourceQuery adjusted for Squad",
+            "homepage": "https://github.com/Deutsche-Squad-Gemeinschaft/PHP-Source-Query",
+            "keywords": [
+                "ark",
+                "counter-strike",
+                "csgo",
+                "gmod",
+                "minecraft",
+                "rcon",
+                "rust",
+                "starbound",
+                "team fortress"
+            ],
+            "support": {
+                "source": "https://github.com/Deutsche-Squad-Gemeinschaft/PHP-Source-Query/tree/1.1.0"
+            },
+            "time": "2020-07-01T22:22:05+00:00"
+        },
+        {
+            "name": "dsg/squad-rcon-php",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Deutsche-Squad-Gemeinschaft/squad-rcon-php.git",
+                "reference": "7f6881b3cedad599d2bb40e65551103549bb7d9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Deutsche-Squad-Gemeinschaft/squad-rcon-php/zipball/7f6881b3cedad599d2bb40e65551103549bb7d9c",
+                "reference": "7f6881b3cedad599d2bb40e65551103549bb7d9c",
+                "shasum": ""
+            },
+            "require": {
+                "dsg/php-source-query-class": "1.1.0",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.0||~6.0||~7.0||~8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DSG\\SquadRCON\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Squad Server RCon library",
+            "support": {
+                "issues": "https://github.com/Deutsche-Squad-Gemeinschaft/squad-rcon-php/issues",
+                "source": "https://github.com/Deutsche-Squad-Gemeinschaft/squad-rcon-php/tree/2.0.1"
+            },
+            "time": "2021-02-26T16:06:04+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -4354,12 +4443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "4f17783579f663febd83407a34bbb24ef39fc7ad"
+                "reference": "7d31a9e629789e0a147df8100ab0e05bd03a12a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/4f17783579f663febd83407a34bbb24ef39fc7ad",
-                "reference": "4f17783579f663febd83407a34bbb24ef39fc7ad",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/7d31a9e629789e0a147df8100ab0e05bd03a12a6",
+                "reference": "7d31a9e629789e0a147df8100ab0e05bd03a12a6",
                 "shasum": ""
             },
             "require": {
@@ -4374,7 +4463,8 @@
                 "laravel": {
                     "providers": [
                         "SquadMS\\DefaultTheme\\SquadMSDefaultThemeServiceProvider",
-                        "SquadMS\\DefaultTheme\\Providers\\ViewServiceProvider"
+                        "SquadMS\\DefaultTheme\\Providers\\ViewServiceProvider",
+                        "SquadMS\\DefaultTheme\\Providers\\ModulesServiceProvider"
                     ]
                 }
             },
@@ -4405,7 +4495,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-05-19T18:29:22+00:00"
+            "time": "2021-05-25T01:07:49+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -4413,12 +4503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "c8a9c28a662ab0ea6ff9a295f3063f8116a6b52b"
+                "reference": "1078c83ce8dbcd60ff7fb4ba972ee701fcca402c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/c8a9c28a662ab0ea6ff9a295f3063f8116a6b52b",
-                "reference": "c8a9c28a662ab0ea6ff9a295f3063f8116a6b52b",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/1078c83ce8dbcd60ff7fb4ba972ee701fcca402c",
+                "reference": "1078c83ce8dbcd60ff7fb4ba972ee701fcca402c",
                 "shasum": ""
             },
             "require": {
@@ -4450,13 +4540,16 @@
                         "SquadMS\\Foundation\\Providers\\RouteServiceProvider",
                         "SquadMS\\Foundation\\Providers\\AuthServiceProvider",
                         "SquadMS\\Foundation\\Providers\\LivewireServiceProvider",
-                        "SquadMS\\Foundation\\Providers\\ViewServiceProvider"
+                        "SquadMS\\Foundation\\Providers\\ViewServiceProvider",
+                        "SquadMS\\Foundation\\Providers\\ModulesServiceProvider",
+                        "SquadMS\\Foundation\\Providers\\CommandsServiceProvider"
                     ],
                     "aliases": {
                         "SquadMSPermissions": "SquadMS\\Foundation\\Facades\\SquadMSPermissions",
                         "SquadMSRouter": "SquadMS\\Foundation\\Facades\\SquadMSRouter",
                         "SquadMSMenu": "SquadMS\\Foundation\\Facades\\SquadMSMenu",
-                        "SquadMSAdminMenu": "SquadMS\\Foundation\\Facades\\SquadMSAdminMenu"
+                        "SquadMSAdminMenu": "SquadMS\\Foundation\\Facades\\SquadMSAdminMenu",
+                        "SquadMSModuleRegistry": "SquadMS\\Foundation\\Facades\\SquadMSModuleRegistry"
                     }
                 }
             },
@@ -4488,7 +4581,65 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-05-23T03:24:39+00:00"
+            "time": "2021-05-25T01:08:13+00:00"
+        },
+        {
+            "name": "squadms/servers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SquadMS/SqMS-Servers.git",
+                "reference": "26344cde8df65243e7ba3bf891abaef4fa343882"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/26344cde8df65243e7ba3bf891abaef4fa343882",
+                "reference": "26344cde8df65243e7ba3bf891abaef4fa343882",
+                "shasum": ""
+            },
+            "require": {
+                "dsg/squad-rcon-php": "^2.0.1",
+                "illuminate/support": "^8.0",
+                "squadms/foundation": "dev-master"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SquadMS\\Servers\\SquadMSServersServiceProvider",
+                        "SquadMS\\Servers\\Providers\\ModulesServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SquadMS\\Servers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Henninger",
+                    "email": "privat@skyraptor.eu",
+                    "homepage": "https://skyraptor.eu/"
+                }
+            ],
+            "description": "The SquadMS Server management module.",
+            "keywords": [
+                "laravel",
+                "servers",
+                "squad",
+                "squadms"
+            ],
+            "support": {
+                "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
+                "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
+            },
+            "time": "2021-05-26T18:21:19+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -9592,7 +9743,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "squadms/default-theme": 20,
-        "squadms/foundation": 20
+        "squadms/foundation": 20,
+        "squadms/servers": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
