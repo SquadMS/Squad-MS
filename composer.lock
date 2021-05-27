@@ -1542,16 +1542,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.42.1",
+            "version": "v8.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "41ec4897a70eb8729cf0ff34a8354413c54e42a6"
+                "reference": "3ec63771a07e251f4fb6c7ef2411a79a314bba65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/41ec4897a70eb8729cf0ff34a8354413c54e42a6",
-                "reference": "41ec4897a70eb8729cf0ff34a8354413c54e42a6",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3ec63771a07e251f4fb6c7ef2411a79a314bba65",
+                "reference": "3ec63771a07e251f4fb6c7ef2411a79a314bba65",
                 "shasum": ""
             },
             "require": {
@@ -1706,7 +1706,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-05-19T13:03:18+00:00"
+            "time": "2021-05-25T13:06:44+00:00"
         },
         {
             "name": "laravel/horizon",
@@ -2275,16 +2275,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.48.0",
+            "version": "2.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "d3c447f21072766cddec3522f9468a5849a76147"
+                "reference": "8d1f50f1436fb4b05e7127360483dd9c6e73da16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d3c447f21072766cddec3522f9468a5849a76147",
-                "reference": "d3c447f21072766cddec3522f9468a5849a76147",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8d1f50f1436fb4b05e7127360483dd9c6e73da16",
+                "reference": "8d1f50f1436fb4b05e7127360483dd9c6e73da16",
                 "shasum": ""
             },
             "require": {
@@ -2364,7 +2364,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-07T10:08:30+00:00"
+            "time": "2021-05-26T22:08:38+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2539,16 +2539,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v1.16.0",
+            "version": "v1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "928e0565c9fe4f60b8f09119656c1aa418fc84ab"
+                "reference": "2e856afe80bfc968b47da1f4a7e1ea8f03d06b38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/928e0565c9fe4f60b8f09119656c1aa418fc84ab",
-                "reference": "928e0565c9fe4f60b8f09119656c1aa418fc84ab",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/2e856afe80bfc968b47da1f4a7e1ea8f03d06b38",
+                "reference": "2e856afe80bfc968b47da1f4a7e1ea8f03d06b38",
                 "shasum": ""
             },
             "require": {
@@ -2619,9 +2619,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paragonie/sodium_compat/issues",
-                "source": "https://github.com/paragonie/sodium_compat/tree/v1.16.0"
+                "source": "https://github.com/paragonie/sodium_compat/tree/v1.16.1"
             },
-            "time": "2021-05-14T03:03:19+00:00"
+            "time": "2021-05-25T12:58:14+00:00"
         },
         {
             "name": "petercoles/multilingual-language-list",
@@ -4443,12 +4443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "7d31a9e629789e0a147df8100ab0e05bd03a12a6"
+                "reference": "4759cc939c661f28d4f9946377251548628065fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/7d31a9e629789e0a147df8100ab0e05bd03a12a6",
-                "reference": "7d31a9e629789e0a147df8100ab0e05bd03a12a6",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/4759cc939c661f28d4f9946377251548628065fe",
+                "reference": "4759cc939c661f28d4f9946377251548628065fe",
                 "shasum": ""
             },
             "require": {
@@ -4495,7 +4495,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-05-25T01:07:49+00:00"
+            "time": "2021-05-27T03:14:58+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -4503,12 +4503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "1078c83ce8dbcd60ff7fb4ba972ee701fcca402c"
+                "reference": "913692fff27afc4c08696b0c92ee6fe22a1f4b6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/1078c83ce8dbcd60ff7fb4ba972ee701fcca402c",
-                "reference": "1078c83ce8dbcd60ff7fb4ba972ee701fcca402c",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/913692fff27afc4c08696b0c92ee6fe22a1f4b6b",
+                "reference": "913692fff27afc4c08696b0c92ee6fe22a1f4b6b",
                 "shasum": ""
             },
             "require": {
@@ -4581,7 +4581,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-05-25T01:08:13+00:00"
+            "time": "2021-05-27T03:20:06+00:00"
         },
         {
             "name": "squadms/servers",
@@ -4589,12 +4589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "26344cde8df65243e7ba3bf891abaef4fa343882"
+                "reference": "1c3c83b545592d85e6b97d55f3144a76f1b84fd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/26344cde8df65243e7ba3bf891abaef4fa343882",
-                "reference": "26344cde8df65243e7ba3bf891abaef4fa343882",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/1c3c83b545592d85e6b97d55f3144a76f1b84fd8",
+                "reference": "1c3c83b545592d85e6b97d55f3144a76f1b84fd8",
                 "shasum": ""
             },
             "require": {
@@ -4608,7 +4608,9 @@
                 "laravel": {
                     "providers": [
                         "SquadMS\\Servers\\SquadMSServersServiceProvider",
-                        "SquadMS\\Servers\\Providers\\ModulesServiceProvider"
+                        "SquadMS\\Servers\\Providers\\ModulesServiceProvider",
+                        "SquadMS\\Servers\\Providers\\RouteServiceProvider",
+                        "SquadMS\\Servers\\Providers\\ViewServiceProvider"
                     ]
                 }
             },
@@ -4639,7 +4641,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-05-26T18:21:19+00:00"
+            "time": "2021-05-27T03:17:46+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7691,16 +7693,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "5d23474cd411b07f46980d05f9c38e7dc0d17460"
+                "reference": "d1f703d73f782af5427697cdc5023395cd341963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/5d23474cd411b07f46980d05f9c38e7dc0d17460",
-                "reference": "5d23474cd411b07f46980d05f9c38e7dc0d17460",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/d1f703d73f782af5427697cdc5023395cd341963",
+                "reference": "d1f703d73f782af5427697cdc5023395cd341963",
                 "shasum": ""
             },
             "require": {
@@ -7747,7 +7749,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2021-05-18T15:44:02+00:00"
+            "time": "2021-05-25T16:41:13+00:00"
         },
         {
             "name": "mockery/mockery",
