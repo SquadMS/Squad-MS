@@ -6,6 +6,6 @@ return [
     ],
 
     'auth' => [
-        'redirect' => 2,
+        'redirect' => 1,
     ],
 ];
