@@ -18,6 +18,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/horizon": "^5.7",
+        "laravel/octane": "^1.0",
         "laravel/tinker": "^2.5",
         "livewire/livewire": "^2.4",
         "squadms/default-theme": "dev-master",
