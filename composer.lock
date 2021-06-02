@@ -1951,16 +1951,16 @@
         },
         {
             "name": "laravel/octane",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "fd430412c39b3cd60e901e1eb6edc55ebd1f3735"
+                "reference": "ce2015794b2b55683b900984af1bec8a46f86836"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/fd430412c39b3cd60e901e1eb6edc55ebd1f3735",
-                "reference": "fd430412c39b3cd60e901e1eb6edc55ebd1f3735",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/ce2015794b2b55683b900984af1bec8a46f86836",
+                "reference": "ce2015794b2b55683b900984af1bec8a46f86836",
                 "shasum": ""
             },
             "require": {
@@ -2023,7 +2023,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2021-05-25T16:39:04+00:00"
+            "time": "2021-06-01T17:32:24+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -4490,16 +4490,16 @@
         },
         {
             "name": "spatie/laravel-permission",
-            "version": "4.0.1",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-permission.git",
-                "reference": "29c05324c170c0be108ccb86dd29f6a719c0a617"
+                "reference": "4a89dd3f083ddb89153367e6d087de3872c724ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/29c05324c170c0be108ccb86dd29f6a719c0a617",
-                "reference": "29c05324c170c0be108ccb86dd29f6a719c0a617",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/4a89dd3f083ddb89153367e6d087de3872c724ff",
+                "reference": "4a89dd3f083ddb89153367e6d087de3872c724ff",
                 "shasum": ""
             },
             "require": {
@@ -4556,7 +4556,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-permission/issues",
-                "source": "https://github.com/spatie/laravel-permission/tree/4.0.1"
+                "source": "https://github.com/spatie/laravel-permission/tree/4.1.0"
             },
             "funding": [
                 {
@@ -4564,7 +4564,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-22T18:38:29+00:00"
+            "time": "2021-06-02T00:39:38+00:00"
         },
         {
             "name": "spatie/macroable",
@@ -4798,12 +4798,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "c995ce0e98f715f9627f607d793e3460cfcf8945"
+                "reference": "394db66d7d38662f8f54b60c7ec02a44956f32b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/c995ce0e98f715f9627f607d793e3460cfcf8945",
-                "reference": "c995ce0e98f715f9627f607d793e3460cfcf8945",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/394db66d7d38662f8f54b60c7ec02a44956f32b5",
+                "reference": "394db66d7d38662f8f54b60c7ec02a44956f32b5",
                 "shasum": ""
             },
             "require": {
@@ -4811,6 +4811,7 @@
                 "guzzlehttp/guzzle": "^7.0.1",
                 "illuminate/console": "^8.0",
                 "illuminate/database": "^8.0",
+                "illuminate/routing": "^8.0",
                 "illuminate/support": "^8.0",
                 "livewire/livewire": "^2.4",
                 "petercoles/multilingual-language-list": "^1.16",
@@ -4876,7 +4877,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-01T02:57:09+00:00"
+            "time": "2021-06-02T01:24:08+00:00"
         },
         {
             "name": "squadms/servers",
@@ -4884,12 +4885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "7a84de5b2ad1cc9fd1e40a5ddd1665b3b3ab0bcb"
+                "reference": "f703680ec79686100c584cb77f2c0c4e68b7f9cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/7a84de5b2ad1cc9fd1e40a5ddd1665b3b3ab0bcb",
-                "reference": "7a84de5b2ad1cc9fd1e40a5ddd1665b3b3ab0bcb",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/f703680ec79686100c584cb77f2c0c4e68b7f9cd",
+                "reference": "f703680ec79686100c584cb77f2c0c4e68b7f9cd",
                 "shasum": ""
             },
             "require": {
@@ -4938,7 +4939,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-01T02:27:08+00:00"
+            "time": "2021-06-02T01:48:52+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7596,16 +7597,16 @@
     "packages-dev": [
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "v3.5.7",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "88fd9cfa144b06b2549e9d487fdaec68265e791e"
+                "reference": "bc99f4c52aec0636ecb3aae4576ce84c5773bae2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/88fd9cfa144b06b2549e9d487fdaec68265e791e",
-                "reference": "88fd9cfa144b06b2549e9d487fdaec68265e791e",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/bc99f4c52aec0636ecb3aae4576ce84c5773bae2",
+                "reference": "bc99f4c52aec0636ecb3aae4576ce84c5773bae2",
                 "shasum": ""
             },
             "require": {
@@ -7665,7 +7666,7 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.5.7"
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.6.0"
             },
             "funding": [
                 {
@@ -7673,7 +7674,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-05-13T20:18:35+00:00"
+            "time": "2021-06-01T08:46:17+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -10139,16 +10140,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.22",
+            "version": "v4.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "45b2136377cca5f10af858968d6079a482bca473"
+                "reference": "a8d2d5c94438548bff9f998ca874e202bb29d07f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/45b2136377cca5f10af858968d6079a482bca473",
-                "reference": "45b2136377cca5f10af858968d6079a482bca473",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/a8d2d5c94438548bff9f998ca874e202bb29d07f",
+                "reference": "a8d2d5c94438548bff9f998ca874e202bb29d07f",
                 "shasum": ""
             },
             "require": {
@@ -10188,7 +10189,7 @@
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.22"
+                "source": "https://github.com/symfony/debug/tree/v4.4.25"
             },
             "funding": [
                 {
@@ -10204,7 +10205,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-02T07:50:12+00:00"
+            "time": "2021-05-26T17:39:37+00:00"
         },
         {
             "name": "theseer/tokenizer",
