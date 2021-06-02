@@ -1541,6 +1541,68 @@
             "time": "2021-04-26T09:17:50+00:00"
         },
         {
+            "name": "hihaho/laravel-encryptable-trait",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hihaho/laravel-encryptable-trait.git",
+                "reference": "8ecb818ffc7ec74fbdfd4832467b69f53bba75a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hihaho/laravel-encryptable-trait/zipball/8ecb818ffc7ec74fbdfd4832467b69f53bba75a4",
+                "reference": "8ecb818ffc7ec74fbdfd4832467b69f53bba75a4",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/encryption": "^6.0|^7.0|^8.0",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.3",
+                "orchestra/testbench": "^4.0|^5.0|^6.0",
+                "phpunit/phpunit": "^7.5|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "v1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "HiHaHo\\EncryptableTrait\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Boes",
+                    "email": "robert@boes.io"
+                },
+                {
+                    "name": "Mart de Graaf",
+                    "email": "mart@martdegraaf.nl"
+                }
+            ],
+            "description": "Laravel encryptable trait, easily make certain fields for eloquent models encryptable",
+            "homepage": "https://github.com/hihaho/laravel-encryptable-trait",
+            "keywords": [
+                "eloquent",
+                "encryptable",
+                "laravel",
+                "model"
+            ],
+            "support": {
+                "issues": "https://github.com/hihaho/laravel-encryptable-trait/issues",
+                "source": "https://github.com/hihaho/laravel-encryptable-trait/tree/v1.4.0"
+            },
+            "time": "2021-02-11T17:58:09+00:00"
+        },
+        {
             "name": "laminas/laminas-diactoros",
             "version": "2.6.0",
             "source": {
@@ -4798,22 +4860,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "eb38d3fa8cb4caf7dfe5b260a3451c6d3b08bff4"
+                "reference": "fef35c08810f264371761a9d28d334caeaa4b61f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/eb38d3fa8cb4caf7dfe5b260a3451c6d3b08bff4",
-                "reference": "eb38d3fa8cb4caf7dfe5b260a3451c6d3b08bff4",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/fef35c08810f264371761a9d28d334caeaa4b61f",
+                "reference": "fef35c08810f264371761a9d28d334caeaa4b61f",
                 "shasum": ""
             },
             "require": {
                 "codezero/laravel-localized-routes": "^2.5",
                 "guzzlehttp/guzzle": "^7.0.1",
+                "hihaho/laravel-encryptable-trait": "^1.4",
                 "illuminate/console": "^8.0",
                 "illuminate/database": "^8.0",
                 "illuminate/routing": "^8.0",
                 "illuminate/support": "^8.0",
-                "livewire/livewire": "^2.4",
+                "livewire/livewire": "^2.4.4",
                 "petercoles/multilingual-language-list": "^1.16",
                 "php": "^8.0",
                 "spatie/laravel-menu": "^4.0",
@@ -4877,7 +4940,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-02T03:10:45+00:00"
+            "time": "2021-06-02T05:26:54+00:00"
         },
         {
             "name": "squadms/servers",
@@ -4885,12 +4948,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "2ab059603496777d4418f931493f2c6eb5713edf"
+                "reference": "908fc0531b6352e11520dafbd625c7b67099fb59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/2ab059603496777d4418f931493f2c6eb5713edf",
-                "reference": "2ab059603496777d4418f931493f2c6eb5713edf",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/908fc0531b6352e11520dafbd625c7b67099fb59",
+                "reference": "908fc0531b6352e11520dafbd625c7b67099fb59",
                 "shasum": ""
             },
             "require": {
@@ -4939,7 +5002,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-02T03:40:31+00:00"
+            "time": "2021-06-02T05:39:29+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
