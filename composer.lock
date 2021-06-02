@@ -188,6 +188,98 @@
             "time": "2021-03-11T06:42:03+00:00"
         },
         {
+            "name": "austinb/gameq",
+            "version": "v3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Austinb/GameQ.git",
+                "reference": "af6641c97a00391920fc27344d23cad89edb9645"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Austinb/GameQ/zipball/af6641c97a00391920fc27344d23cad89edb9645",
+                "reference": "af6641c97a00391920fc27344d23cad89edb9645",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bz2": "*",
+                "ext-xml": "*",
+                "php": ">=5.6.40"
+            },
+            "require-dev": {
+                "corneltek/getoptionkit": "~2",
+                "ext-curl": "*",
+                "php-coveralls/php-coveralls": "^1.1 || ^2.1",
+                "phpmd/phpmd": "@stable",
+                "phpunit/php-invoker": "*",
+                "phpunit/phpunit": "^4.8 || ^6.0 || ^7.0",
+                "squizlabs/php_codesniffer": "3.*@stable"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GameQ\\": "src/GameQ/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Austin Bischoff",
+                    "email": "austin.bischoff@gmail.com",
+                    "homepage": "https://github.com/Austinb",
+                    "role": "Packagist/Composer Maintainer, Developer"
+                },
+                {
+                    "name": "Christoph Kretzschmar",
+                    "email": "blackskyliner@googlemail.com",
+                    "homepage": "https://github.com/Blackskyliner",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Marcel Bößendörfer",
+                    "email": "m.boessendoerfer@marbis.net",
+                    "homepage": "https://github.com/nitrado",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander Hambalgo",
+                    "homepage": "http://balgo.users.sourceforge.net/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Holger",
+                    "homepage": "http://icet33.users.sourceforge.net/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Weidenbach",
+                    "homepage": "http://sebastianwe.users.sourceforge.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GameQ Gameserver Library",
+            "keywords": [
+                "gameq",
+                "serverstatus"
+            ],
+            "support": {
+                "issues": "https://github.com/Austinb/GameQ/issues",
+                "source": "https://github.com/Austinb/GameQ/v3",
+                "wiki": "https://github.com/Austinb/GameQ/wiki"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VAU2KADATP5PU",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-02-23T20:23:51+00:00"
+        },
+        {
             "name": "beyondcode/laravel-websockets",
             "version": "1.12.0",
             "source": {
@@ -4948,15 +5040,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "908fc0531b6352e11520dafbd625c7b67099fb59"
+                "reference": "e04fcd49a5d26d61e469e096be281240beffce0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/908fc0531b6352e11520dafbd625c7b67099fb59",
-                "reference": "908fc0531b6352e11520dafbd625c7b67099fb59",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/e04fcd49a5d26d61e469e096be281240beffce0d",
+                "reference": "e04fcd49a5d26d61e469e096be281240beffce0d",
                 "shasum": ""
             },
             "require": {
+                "austinb/gameq": "v3.x-dev",
                 "dsg/squad-rcon-php": "^2.0.1",
                 "squadms/foundation": "dev-master"
             },
@@ -4971,7 +5064,8 @@
                         "SquadMS\\Servers\\Providers\\ViewServiceProvider",
                         "SquadMS\\Servers\\Providers\\LivewireServiceProvider",
                         "SquadMS\\Servers\\Providers\\AuthServiceProvider",
-                        "SquadMS\\Servers\\Providers\\PermissionsServiceProvider"
+                        "SquadMS\\Servers\\Providers\\PermissionsServiceProvider",
+                        "SquadMS\\Servers\\Providers\\ScheduleServiceProvider"
                     ]
                 }
             },
@@ -5002,7 +5096,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-02T05:39:29+00:00"
+            "time": "2021-06-02T07:13:47+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
