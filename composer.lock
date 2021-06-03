@@ -4892,12 +4892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "584ed04a3e562bc3715617e92d4c42c75f5a8122"
+                "reference": "a689c684c218e0757075e5f88ced6a1d8f84f232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/584ed04a3e562bc3715617e92d4c42c75f5a8122",
-                "reference": "584ed04a3e562bc3715617e92d4c42c75f5a8122",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/a689c684c218e0757075e5f88ced6a1d8f84f232",
+                "reference": "a689c684c218e0757075e5f88ced6a1d8f84f232",
                 "shasum": ""
             },
             "require": {
@@ -4944,7 +4944,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-06-01T05:00:18+00:00"
+            "time": "2021-06-02T20:22:26+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -4952,12 +4952,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "fef35c08810f264371761a9d28d334caeaa4b61f"
+                "reference": "9ee2a3b85d795078eba4304cf85a028fb3fb5c7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/fef35c08810f264371761a9d28d334caeaa4b61f",
-                "reference": "fef35c08810f264371761a9d28d334caeaa4b61f",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/9ee2a3b85d795078eba4304cf85a028fb3fb5c7b",
+                "reference": "9ee2a3b85d795078eba4304cf85a028fb3fb5c7b",
                 "shasum": ""
             },
             "require": {
@@ -5032,7 +5032,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-02T05:26:54+00:00"
+            "time": "2021-06-02T20:13:12+00:00"
         },
         {
             "name": "squadms/servers",
@@ -5040,12 +5040,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "e04fcd49a5d26d61e469e096be281240beffce0d"
+                "reference": "52c55d9da7a4b215499722e7a32564591e140ba9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/e04fcd49a5d26d61e469e096be281240beffce0d",
-                "reference": "e04fcd49a5d26d61e469e096be281240beffce0d",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/52c55d9da7a4b215499722e7a32564591e140ba9",
+                "reference": "52c55d9da7a4b215499722e7a32564591e140ba9",
                 "shasum": ""
             },
             "require": {
@@ -5096,7 +5096,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-02T07:13:47+00:00"
+            "time": "2021-06-02T23:45:32+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5777,16 +5777,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.3.0",
+            "version": "v5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "31f25d99b329a1461f42bcef8505b54926a30be6"
+                "reference": "8827b90cf8806e467124ad476acd15216c2fceb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/31f25d99b329a1461f42bcef8505b54926a30be6",
-                "reference": "31f25d99b329a1461f42bcef8505b54926a30be6",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/8827b90cf8806e467124ad476acd15216c2fceb6",
+                "reference": "8827b90cf8806e467124ad476acd15216c2fceb6",
                 "shasum": ""
             },
             "require": {
@@ -5830,7 +5830,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.3.0"
+                "source": "https://github.com/symfony/http-foundation/tree/v5.3.1"
             },
             "funding": [
                 {
@@ -5846,20 +5846,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T17:43:10+00:00"
+            "time": "2021-06-02T09:32:00+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v5.3.0",
+            "version": "v5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "f8e8f5391b6909e2f0ba8c12220ab7af3050eb4f"
+                "reference": "74eb022e3bac36b3d3a897951a98759f2b32b864"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/f8e8f5391b6909e2f0ba8c12220ab7af3050eb4f",
-                "reference": "f8e8f5391b6909e2f0ba8c12220ab7af3050eb4f",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/74eb022e3bac36b3d3a897951a98759f2b32b864",
+                "reference": "74eb022e3bac36b3d3a897951a98759f2b32b864",
                 "shasum": ""
             },
             "require": {
@@ -5942,7 +5942,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v5.3.0"
+                "source": "https://github.com/symfony/http-kernel/tree/v5.3.1"
             },
             "funding": [
                 {
@@ -5958,7 +5958,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-31T10:44:03+00:00"
+            "time": "2021-06-02T10:07:12+00:00"
         },
         {
             "name": "symfony/mime",
