@@ -4952,12 +4952,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "27c7080b3069c7ec550358b49288e9c7e163b843"
+                "reference": "ad8cb9ebc892e4cb8a951830d4e7c1445608cc0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/27c7080b3069c7ec550358b49288e9c7e163b843",
-                "reference": "27c7080b3069c7ec550358b49288e9c7e163b843",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/ad8cb9ebc892e4cb8a951830d4e7c1445608cc0f",
+                "reference": "ad8cb9ebc892e4cb8a951830d4e7c1445608cc0f",
                 "shasum": ""
             },
             "require": {
@@ -4972,7 +4972,7 @@
                 "petercoles/multilingual-language-list": "^1.16",
                 "php": "^8.0",
                 "spatie/laravel-menu": "^4.0",
-                "spatie/laravel-permission": "^4.0",
+                "spatie/laravel-permission": "^4.1",
                 "xpaw/steamid": "^2.0.0"
             },
             "require-dev": {
@@ -5032,7 +5032,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-03T01:47:16+00:00"
+            "time": "2021-06-03T02:43:42+00:00"
         },
         {
             "name": "squadms/servers",
