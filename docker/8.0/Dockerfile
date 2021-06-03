@@ -46,16 +46,21 @@ RUN pecl channel-update https://pecl.php.net/channel.xml \
     && pecl install swoole
 
 # YASD (Yet anothe Swoole debugger)
-RUN git clone https://github.com/swoole/yasd.git && \
-    cd yasd && \
-    phpize --clean && \
-    phpize && \
-    ./configure && \
-    make clean && \
-    make && \
-    make install && \
-    cd .. && \
-    rm -R yasd
+ARG INSTALL_YASD=false
+
+RUN if [ ${INSTALL_YASD} = true ]; then \
+    git clone https://github.com/swoole/yasd.git ; \
+    cd yasd ; \
+    phpize --clean ; \
+    phpize ; \
+    ./configure ; \
+    make clean ; \
+    make ; \
+    make install ; \
+    echo "extension=yasd.so" > /etc/php/8.0/conf.d/50_yasd.ini ; \
+    cd .. ; \
+    rm -R yasd ; \
+    fi;
 
 RUN setcap "cap_net_bind_service=+ep" /usr/bin/php8.0
 
@@ -63,11 +68,11 @@ RUN groupadd --force -g $WWWGROUP sail
 RUN useradd -ms /bin/bash --no-user-group -g $WWWGROUP -u 1337 sail
 
 COPY start-container /usr/local/bin/start-container
+RUN chmod +x /usr/local/bin/start-container
 COPY run-octane /usr/local/bin/run-octane
+RUN chmod +x /usr/local/bin/run-octane
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY php.ini /etc/php/8.0/cli/conf.d/99-sail.ini
-RUN chmod +x /usr/local/bin/start-container
-RUN chmod +x /usr/local/bin/run-octane
 
 EXPOSE 8000
 
