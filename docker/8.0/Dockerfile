@@ -57,7 +57,7 @@ RUN if [ "${INSTALL_YASD}" = "true" ]; then \
     make clean ; \
     make ; \
     make install ; \
-    echo "extension=yasd.so" > /etc/php/8.0/conf.d/50_yasd.ini ; \
+    echo "extension=yasd.so" > /etc/php/8.0/cli/conf.d/50_yasd.ini ; \
     cd .. ; \
     rm -R yasd ; \
     fi;
