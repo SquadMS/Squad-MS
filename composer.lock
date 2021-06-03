@@ -4892,12 +4892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "a689c684c218e0757075e5f88ced6a1d8f84f232"
+                "reference": "028855f1bef4c9d9e0d3c22e9b882eabd208d5c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/a689c684c218e0757075e5f88ced6a1d8f84f232",
-                "reference": "a689c684c218e0757075e5f88ced6a1d8f84f232",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/028855f1bef4c9d9e0d3c22e9b882eabd208d5c9",
+                "reference": "028855f1bef4c9d9e0d3c22e9b882eabd208d5c9",
                 "shasum": ""
             },
             "require": {
@@ -4944,7 +4944,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-06-02T20:22:26+00:00"
+            "time": "2021-06-03T04:48:31+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -5040,12 +5040,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "52c55d9da7a4b215499722e7a32564591e140ba9"
+                "reference": "8d915151d641677bc4ab0c99aa535b78364b0d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/52c55d9da7a4b215499722e7a32564591e140ba9",
-                "reference": "52c55d9da7a4b215499722e7a32564591e140ba9",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/8d915151d641677bc4ab0c99aa535b78364b0d7e",
+                "reference": "8d915151d641677bc4ab0c99aa535b78364b0d7e",
                 "shasum": ""
             },
             "require": {
@@ -5096,7 +5096,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-02T23:45:32+00:00"
+            "time": "2021-06-03T04:45:16+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
