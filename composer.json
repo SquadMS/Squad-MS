@@ -48,12 +48,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "@php artisan sqms:publish-assets",
-            "@php artisan sqms:permissions-sync"
+            "@php artisan dev:post-install"
         ],
         "post-update-cmd": [
-            "@php artisan sqms:publish-assets",
-            "@php artisan sqms:permissions-sync"
+            "@php artisan dev:post-install"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
