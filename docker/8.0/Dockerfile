@@ -48,7 +48,7 @@ RUN pecl channel-update https://pecl.php.net/channel.xml \
 # YASD (Yet anothe Swoole debugger)
 ARG INSTALL_YASD=false
 
-RUN if [ ${INSTALL_YASD} = true ]; then \
+RUN if [ "${INSTALL_YASD}" = "true" ]; then \
     git clone https://github.com/swoole/yasd.git ; \
     cd yasd ; \
     phpize --clean ; \
