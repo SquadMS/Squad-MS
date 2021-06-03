@@ -4892,12 +4892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "028855f1bef4c9d9e0d3c22e9b882eabd208d5c9"
+                "reference": "f958040f949488007e84333447d3bd1f7d1ba669"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/028855f1bef4c9d9e0d3c22e9b882eabd208d5c9",
-                "reference": "028855f1bef4c9d9e0d3c22e9b882eabd208d5c9",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/f958040f949488007e84333447d3bd1f7d1ba669",
+                "reference": "f958040f949488007e84333447d3bd1f7d1ba669",
                 "shasum": ""
             },
             "require": {
@@ -4944,7 +4944,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-06-03T04:48:31+00:00"
+            "time": "2021-06-03T07:42:56+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -7969,16 +7969,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.9.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "e7db3b601ce742568b92648818ef903904d20164"
+                "reference": "478aef936468b4fb4c3dd04a9a0b66d54eab60f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/e7db3b601ce742568b92648818ef903904d20164",
-                "reference": "e7db3b601ce742568b92648818ef903904d20164",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/478aef936468b4fb4c3dd04a9a0b66d54eab60f3",
+                "reference": "478aef936468b4fb4c3dd04a9a0b66d54eab60f3",
                 "shasum": ""
             },
             "require": {
@@ -8042,7 +8042,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-05-05T06:45:12+00:00"
+            "time": "2021-06-03T07:01:25+00:00"
         },
         {
             "name": "fakerphp/faker",
