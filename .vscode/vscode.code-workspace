@@ -4,5 +4,75 @@
 			"path": "/home/patrick/private/workspace/squad-ms"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"restoreTerminals.terminals": [
+			{
+				"splitTerminals": [
+					{
+						"name": "Commands",
+						"commands": [
+							"sail up -d"
+						]
+					},
+					{
+						"name": "Watch",
+						"commands": [
+							"while [ true ] do sail logs --follow; sleep 2; done;"
+						]
+					}
+				]
+			},
+			{
+				"splitTerminals": [
+					{
+						"name": "Root-Shell",
+						"commands": [
+							"while [ \"`docker inspect -f {{.State.Health.Status}} laravel.test`\" != \"healthy\" ]; do sleep 5; done",
+							"sail root-shell"
+						]
+					},
+					{
+						"name": "Watch",
+						"commands": [
+							"while [ true ] do sail logs --follow; sleep 2; done;"
+						]
+					}
+				]
+			},
+			{
+				"splitTerminals": [
+					{
+						"name": "Redis-CLI",
+						"commands": [
+							"while [ \"`docker inspect -f {{.State.Health.Status}} redis`\" != \"healthy\" ]; do sleep 5; done",
+							"sail redis"
+						]
+					},
+					{
+						"name": "Watch",
+						"commands": [
+							"while [ true ] do sail logs --follow; sleep 2; done;"
+						]
+					}
+				]
+			},
+			{
+				"splitTerminals": [
+					{
+						"name": "MySQL CLI",
+						"commands": [
+							"while [ \"`docker inspect -f {{.State.Health.Status}} mysql`\" != \"healthy\" ]; do sleep 5; done",
+							"sail mysql"
+						]
+					},
+					{
+						"name": "Watch",
+						"commands": [
+							"while [ true ] do sail logs --follow; sleep 2; done;"
+						]
+					}
+				]
+			}
+		]
+	}
 }

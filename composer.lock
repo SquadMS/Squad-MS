@@ -4892,12 +4892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "2d223a49c64f51b1fa8462a4201c93fd54a30220"
+                "reference": "df54cc6b614f24418b973f73e850ca44727aa4c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/2d223a49c64f51b1fa8462a4201c93fd54a30220",
-                "reference": "2d223a49c64f51b1fa8462a4201c93fd54a30220",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/df54cc6b614f24418b973f73e850ca44727aa4c2",
+                "reference": "df54cc6b614f24418b973f73e850ca44727aa4c2",
                 "shasum": ""
             },
             "require": {
@@ -4944,7 +4944,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-06-03T10:02:45+00:00"
+            "time": "2021-06-04T08:35:20+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -5040,12 +5040,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "1b6452f55aef2af07ec146e5b9544f8029778215"
+                "reference": "b3fd375218f524df95a2f6a2c2aeb839641f4f84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/1b6452f55aef2af07ec146e5b9544f8029778215",
-                "reference": "1b6452f55aef2af07ec146e5b9544f8029778215",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/b3fd375218f524df95a2f6a2c2aeb839641f4f84",
+                "reference": "b3fd375218f524df95a2f6a2c2aeb839641f4f84",
                 "shasum": ""
             },
             "require": {
@@ -5096,7 +5096,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-03T10:02:03+00:00"
+            "time": "2021-06-04T13:22:11+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7969,16 +7969,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.10.0",
+            "version": "2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "478aef936468b4fb4c3dd04a9a0b66d54eab60f3"
+                "reference": "508d80f91de953617977e5666f8953669b6e81f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/478aef936468b4fb4c3dd04a9a0b66d54eab60f3",
-                "reference": "478aef936468b4fb4c3dd04a9a0b66d54eab60f3",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/508d80f91de953617977e5666f8953669b6e81f2",
+                "reference": "508d80f91de953617977e5666f8953669b6e81f2",
                 "shasum": ""
             },
             "require": {
@@ -8042,7 +8042,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-06-03T07:01:25+00:00"
+            "time": "2021-06-03T21:41:42+00:00"
         },
         {
             "name": "fakerphp/faker",
@@ -10188,16 +10188,16 @@
         },
         {
             "name": "sebastian/type",
-            "version": "2.3.1",
+            "version": "2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "81cd61ab7bbf2de744aba0ea61fae32f721df3d2"
+                "reference": "0d1c587401514d17e8f9258a27e23527cb1b06c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/81cd61ab7bbf2de744aba0ea61fae32f721df3d2",
-                "reference": "81cd61ab7bbf2de744aba0ea61fae32f721df3d2",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/0d1c587401514d17e8f9258a27e23527cb1b06c1",
+                "reference": "0d1c587401514d17e8f9258a27e23527cb1b06c1",
                 "shasum": ""
             },
             "require": {
@@ -10232,7 +10232,7 @@
             "homepage": "https://github.com/sebastianbergmann/type",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
-                "source": "https://github.com/sebastianbergmann/type/tree/2.3.1"
+                "source": "https://github.com/sebastianbergmann/type/tree/2.3.2"
             },
             "funding": [
                 {
@@ -10240,7 +10240,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-26T13:18:59+00:00"
+            "time": "2021-06-04T13:02:07+00:00"
         },
         {
             "name": "sebastian/version",

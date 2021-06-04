@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 
 shutdown() {
-    if [ /usr/bin/php -d variables_order=EGPCS /var/www/html/artisan octane:status | grep -q "Octane server is running." ]; then
+    if [ $(/usr/bin/php -d variables_order=EGPCS /var/www/html/artisan octane:status | grep -q 'Octane server is running.') ]; then
         echo "Gracefully stopping Octane..."
         /usr/bin/php -d variables_order=EGPCS /var/www/html/artisan octane:stop
         echo "Sucessfully stopped Octane!"
     else
         echo "Octane is not running anymore, no need to stop it."
     fi
+
+    # Make sure state is being removed
+    rm /var/www/html/storage/logs/octane-server-state.json
 }
 
 # call shutdown() when exiting
