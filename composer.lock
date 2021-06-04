@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0ebf8b6a51e300da0df454302ff1427",
+    "content-hash": "42d582742eadc2015a53b88296cf35a4",
     "packages": [
         {
             "name": "0.0.0/composer-include-files",
@@ -1860,16 +1860,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.44.0",
+            "version": "v8.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "7b3b27dc8911ab02a69731af2ba97b5130b2ddb8"
+                "reference": "dc2f0bb02c3eb4b27669d626bb3e810db8e7749d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/7b3b27dc8911ab02a69731af2ba97b5130b2ddb8",
-                "reference": "7b3b27dc8911ab02a69731af2ba97b5130b2ddb8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/dc2f0bb02c3eb4b27669d626bb3e810db8e7749d",
+                "reference": "dc2f0bb02c3eb4b27669d626bb3e810db8e7749d",
                 "shasum": ""
             },
             "require": {
@@ -1951,7 +1951,7 @@
                 "orchestra/testbench-core": "^6.8",
                 "pda/pheanstalk": "^4.0",
                 "phpunit/phpunit": "^8.5.8|^9.3.3",
-                "predis/predis": "^1.1.1",
+                "predis/predis": "^1.1.2",
                 "symfony/cache": "^5.1.4"
             },
             "suggest": {
@@ -2024,7 +2024,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-05-27T16:46:06+00:00"
+            "time": "2021-06-03T16:39:17+00:00"
         },
         {
             "name": "laravel/horizon",
@@ -4892,12 +4892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "f958040f949488007e84333447d3bd1f7d1ba669"
+                "reference": "2d223a49c64f51b1fa8462a4201c93fd54a30220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/f958040f949488007e84333447d3bd1f7d1ba669",
-                "reference": "f958040f949488007e84333447d3bd1f7d1ba669",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/2d223a49c64f51b1fa8462a4201c93fd54a30220",
+                "reference": "2d223a49c64f51b1fa8462a4201c93fd54a30220",
                 "shasum": ""
             },
             "require": {
@@ -4944,7 +4944,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-06-03T07:42:56+00:00"
+            "time": "2021-06-03T10:02:45+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -4952,12 +4952,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "ad8cb9ebc892e4cb8a951830d4e7c1445608cc0f"
+                "reference": "c41f0dd188437d1166a967f2342ba5d856e38fc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/ad8cb9ebc892e4cb8a951830d4e7c1445608cc0f",
-                "reference": "ad8cb9ebc892e4cb8a951830d4e7c1445608cc0f",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/c41f0dd188437d1166a967f2342ba5d856e38fc8",
+                "reference": "c41f0dd188437d1166a967f2342ba5d856e38fc8",
                 "shasum": ""
             },
             "require": {
@@ -5032,7 +5032,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-03T02:43:42+00:00"
+            "time": "2021-06-03T10:01:14+00:00"
         },
         {
             "name": "squadms/servers",
@@ -5040,12 +5040,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "8d915151d641677bc4ab0c99aa535b78364b0d7e"
+                "reference": "1b6452f55aef2af07ec146e5b9544f8029778215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/8d915151d641677bc4ab0c99aa535b78364b0d7e",
-                "reference": "8d915151d641677bc4ab0c99aa535b78364b0d7e",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/1b6452f55aef2af07ec146e5b9544f8029778215",
+                "reference": "1b6452f55aef2af07ec146e5b9544f8029778215",
                 "shasum": ""
             },
             "require": {
@@ -5096,7 +5096,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-03T04:45:16+00:00"
+            "time": "2021-06-03T10:02:03+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -10425,7 +10425,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3|^8.0"
+        "php": "^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
