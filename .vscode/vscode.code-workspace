@@ -27,7 +27,7 @@
 					{
 						"name": "Root-Shell",
 						"commands": [
-							"while [ \"`docker inspect -f {{.State.Health.Status}} laravel.test`\" != \"healthy\" ]; do sleep 5; done",
+							"while [ -z `docker ps -q --no-trunc | grep $(docker-compose ps -q laravel.test)` ]; do sleep 5; done",
 							"sail root-shell"
 						]
 					},
@@ -44,7 +44,7 @@
 					{
 						"name": "Redis-CLI",
 						"commands": [
-							"while [ \"`docker inspect -f {{.State.Health.Status}} redis`\" != \"healthy\" ]; do sleep 5; done",
+							"while [ -z `docker ps -q --no-trunc | grep $(docker-compose ps -q redis)` ]; do sleep 5; done",
 							"sail redis"
 						]
 					},
@@ -61,7 +61,7 @@
 					{
 						"name": "MySQL CLI",
 						"commands": [
-							"while [ \"`docker inspect -f {{.State.Health.Status}} mysql`\" != \"healthy\" ]; do sleep 5; done",
+							"while [ -z `docker ps -q --no-trunc | grep $(docker-compose ps -q mysql)` ]; do sleep 5; done",
 							"sail mysql"
 						]
 					},
