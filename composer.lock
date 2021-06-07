@@ -4644,16 +4644,16 @@
         },
         {
             "name": "spatie/laravel-permission",
-            "version": "4.1.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-permission.git",
-                "reference": "4a89dd3f083ddb89153367e6d087de3872c724ff"
+                "reference": "a6e4122b65094baba7f98df153af0768ef910c85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/4a89dd3f083ddb89153367e6d087de3872c724ff",
-                "reference": "4a89dd3f083ddb89153367e6d087de3872c724ff",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/a6e4122b65094baba7f98df153af0768ef910c85",
+                "reference": "a6e4122b65094baba7f98df153af0768ef910c85",
                 "shasum": ""
             },
             "require": {
@@ -4710,7 +4710,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-permission/issues",
-                "source": "https://github.com/spatie/laravel-permission/tree/4.1.0"
+                "source": "https://github.com/spatie/laravel-permission/tree/4.2.0"
             },
             "funding": [
                 {
@@ -4718,7 +4718,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-02T00:39:38+00:00"
+            "time": "2021-06-04T23:47:08+00:00"
         },
         {
             "name": "spatie/macroable",
@@ -4892,12 +4892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "1ce43240d96df872be41c018780e3ffe1fff21ba"
+                "reference": "9dce43bbf12f70e653ac837748d0846b3756bc16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/1ce43240d96df872be41c018780e3ffe1fff21ba",
-                "reference": "1ce43240d96df872be41c018780e3ffe1fff21ba",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/9dce43bbf12f70e653ac837748d0846b3756bc16",
+                "reference": "9dce43bbf12f70e653ac837748d0846b3756bc16",
                 "shasum": ""
             },
             "require": {
@@ -4913,7 +4913,8 @@
                     "providers": [
                         "SquadMS\\DefaultTheme\\SquadMSDefaultThemeServiceProvider",
                         "SquadMS\\DefaultTheme\\Providers\\ViewServiceProvider",
-                        "SquadMS\\DefaultTheme\\Providers\\ModulesServiceProvider"
+                        "SquadMS\\DefaultTheme\\Providers\\ModulesServiceProvider",
+                        "SquadMS\\DefaultTheme\\Providers\\RouteServiceProvider"
                     ]
                 }
             },
@@ -4944,7 +4945,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-06-04T16:55:30+00:00"
+            "time": "2021-06-06T14:41:54+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -4952,12 +4953,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "c41f0dd188437d1166a967f2342ba5d856e38fc8"
+                "reference": "7d4c4db56b871119386221b96f23725eb4e963e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/c41f0dd188437d1166a967f2342ba5d856e38fc8",
-                "reference": "c41f0dd188437d1166a967f2342ba5d856e38fc8",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/7d4c4db56b871119386221b96f23725eb4e963e0",
+                "reference": "7d4c4db56b871119386221b96f23725eb4e963e0",
                 "shasum": ""
             },
             "require": {
@@ -5032,7 +5033,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-03T10:01:14+00:00"
+            "time": "2021-06-06T13:02:30+00:00"
         },
         {
             "name": "squadms/servers",
@@ -5040,12 +5041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "23254dc6c95dfafe4851d47d272857c4c0175b06"
+                "reference": "a3afe4fe7ea4f0cb2773130c03d9208054b26d21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/23254dc6c95dfafe4851d47d272857c4c0175b06",
-                "reference": "23254dc6c95dfafe4851d47d272857c4c0175b06",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/a3afe4fe7ea4f0cb2773130c03d9208054b26d21",
+                "reference": "a3afe4fe7ea4f0cb2773130c03d9208054b26d21",
                 "shasum": ""
             },
             "require": {
@@ -5096,7 +5097,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-04T16:43:01+00:00"
+            "time": "2021-06-06T13:39:36+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7754,16 +7755,16 @@
     "packages-dev": [
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "v3.6.0",
+            "version": "v3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "bc99f4c52aec0636ecb3aae4576ce84c5773bae2"
+                "reference": "f6f0f895a33cac801286a74355d146bb5384a5da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/bc99f4c52aec0636ecb3aae4576ce84c5773bae2",
-                "reference": "bc99f4c52aec0636ecb3aae4576ce84c5773bae2",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/f6f0f895a33cac801286a74355d146bb5384a5da",
+                "reference": "f6f0f895a33cac801286a74355d146bb5384a5da",
                 "shasum": ""
             },
             "require": {
@@ -7823,7 +7824,7 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.6.0"
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.6.1"
             },
             "funding": [
                 {
@@ -7831,7 +7832,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-01T08:46:17+00:00"
+            "time": "2021-06-02T06:42:22+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -8111,16 +8112,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.12.1",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "c13c0be93cff50f88bbd70827d993026821914dd"
+                "reference": "2edbc73a4687d9085c8f20f398eebade844e8424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/c13c0be93cff50f88bbd70827d993026821914dd",
-                "reference": "c13c0be93cff50f88bbd70827d993026821914dd",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/2edbc73a4687d9085c8f20f398eebade844e8424",
+                "reference": "2edbc73a4687d9085c8f20f398eebade844e8424",
                 "shasum": ""
             },
             "require": {
@@ -8170,7 +8171,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.12.1"
+                "source": "https://github.com/filp/whoops/tree/2.13.0"
             },
             "funding": [
                 {
@@ -8178,7 +8179,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-25T12:00:00+00:00"
+            "time": "2021-06-04T12:00:00+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -9230,16 +9231,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.4",
+            "version": "9.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c73c6737305e779771147af66c96ca6a7ed8a741"
+                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c73c6737305e779771147af66c96ca6a7ed8a741",
-                "reference": "c73c6737305e779771147af66c96ca6a7ed8a741",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/89ff45ea9d70e35522fb6654a2ebc221158de276",
+                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276",
                 "shasum": ""
             },
             "require": {
@@ -9269,7 +9270,7 @@
                 "sebastian/global-state": "^5.0.1",
                 "sebastian/object-enumerator": "^4.0.3",
                 "sebastian/resource-operations": "^3.0.3",
-                "sebastian/type": "^2.3",
+                "sebastian/type": "^2.3.2",
                 "sebastian/version": "^3.0.2"
             },
             "require-dev": {
@@ -9317,7 +9318,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.4"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.5"
             },
             "funding": [
                 {
@@ -9329,7 +9330,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-23T07:16:29+00:00"
+            "time": "2021-06-05T04:49:07+00:00"
         },
         {
             "name": "sebastian/cli-parser",

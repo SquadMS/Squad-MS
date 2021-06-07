@@ -42,7 +42,7 @@
             </x-slot>
         </x-sqms-default-theme::navigation.navbar>
 
-        <main class="flex-grow-1 d-flex flex-column bg-white {{ $mainClass ?? '' }}" role="main">
+        <main class="flex-grow-1 d-flex flex-column bg-white {{ $mainClass ?? '' }}" {!! $mainAttributes ?? '' !!} role="main">
             @yield('content')
         </main>
 
