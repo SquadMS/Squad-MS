@@ -1860,16 +1860,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.45.1",
+            "version": "v8.46.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "dc2f0bb02c3eb4b27669d626bb3e810db8e7749d"
+                "reference": "a18266c612e0e6aba5e0174b3c873d2d217dccfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/dc2f0bb02c3eb4b27669d626bb3e810db8e7749d",
-                "reference": "dc2f0bb02c3eb4b27669d626bb3e810db8e7749d",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a18266c612e0e6aba5e0174b3c873d2d217dccfb",
+                "reference": "a18266c612e0e6aba5e0174b3c873d2d217dccfb",
                 "shasum": ""
             },
             "require": {
@@ -2024,20 +2024,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-06-03T16:39:17+00:00"
+            "time": "2021-06-08T13:36:46+00:00"
         },
         {
             "name": "laravel/horizon",
-            "version": "v5.7.8",
+            "version": "v5.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/horizon.git",
-                "reference": "2b5628b598c813650458dc7e4afacb500d72ff9a"
+                "reference": "50dc53b105ec612cf1a87e89fffd21cc0a43003c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/horizon/zipball/2b5628b598c813650458dc7e4afacb500d72ff9a",
-                "reference": "2b5628b598c813650458dc7e4afacb500d72ff9a",
+                "url": "https://api.github.com/repos/laravel/horizon/zipball/50dc53b105ec612cf1a87e89fffd21cc0a43003c",
+                "reference": "50dc53b105ec612cf1a87e89fffd21cc0a43003c",
                 "shasum": ""
             },
             "require": {
@@ -2099,22 +2099,22 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/horizon/issues",
-                "source": "https://github.com/laravel/horizon/tree/v5.7.8"
+                "source": "https://github.com/laravel/horizon/tree/v5.7.9"
             },
-            "time": "2021-05-27T12:07:58+00:00"
+            "time": "2021-06-08T14:17:37+00:00"
         },
         {
             "name": "laravel/octane",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "ce2015794b2b55683b900984af1bec8a46f86836"
+                "reference": "46ef9bd1fca6193206b7c255f531cc8250fb9775"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/ce2015794b2b55683b900984af1bec8a46f86836",
-                "reference": "ce2015794b2b55683b900984af1bec8a46f86836",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/46ef9bd1fca6193206b7c255f531cc8250fb9775",
+                "reference": "46ef9bd1fca6193206b7c255f531cc8250fb9775",
                 "shasum": ""
             },
             "require": {
@@ -2177,7 +2177,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2021-06-01T17:32:24+00:00"
+            "time": "2021-06-08T14:37:39+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -4892,12 +4892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "9dce43bbf12f70e653ac837748d0846b3756bc16"
+                "reference": "39078fe511cdad4b21cead531a559b7cacc9e153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/9dce43bbf12f70e653ac837748d0846b3756bc16",
-                "reference": "9dce43bbf12f70e653ac837748d0846b3756bc16",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/39078fe511cdad4b21cead531a559b7cacc9e153",
+                "reference": "39078fe511cdad4b21cead531a559b7cacc9e153",
                 "shasum": ""
             },
             "require": {
@@ -4945,7 +4945,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-06-06T14:41:54+00:00"
+            "time": "2021-06-08T16:27:49+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -4953,22 +4953,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "7d4c4db56b871119386221b96f23725eb4e963e0"
+                "reference": "7648cec9df9b33e9cb256189fcdd540f9363ef58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/7d4c4db56b871119386221b96f23725eb4e963e0",
-                "reference": "7d4c4db56b871119386221b96f23725eb4e963e0",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/7648cec9df9b33e9cb256189fcdd540f9363ef58",
+                "reference": "7648cec9df9b33e9cb256189fcdd540f9363ef58",
                 "shasum": ""
             },
             "require": {
                 "codezero/laravel-localized-routes": "^2.5",
                 "guzzlehttp/guzzle": "^7.0.1",
                 "hihaho/laravel-encryptable-trait": "^1.4",
-                "illuminate/console": "^8.0",
-                "illuminate/database": "^8.0",
-                "illuminate/routing": "^8.0",
-                "illuminate/support": "^8.0",
+                "laravel/framework": "^8.0",
                 "livewire/livewire": "^2.4.4",
                 "petercoles/multilingual-language-list": "^1.16",
                 "php": "^8.0",
@@ -5033,7 +5030,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-06T13:02:30+00:00"
+            "time": "2021-06-08T16:57:57+00:00"
         },
         {
             "name": "squadms/servers",
@@ -5041,12 +5038,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "a3afe4fe7ea4f0cb2773130c03d9208054b26d21"
+                "reference": "36c71773322360e44cfc94cd65f749b0d474d3b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/a3afe4fe7ea4f0cb2773130c03d9208054b26d21",
-                "reference": "a3afe4fe7ea4f0cb2773130c03d9208054b26d21",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/36c71773322360e44cfc94cd65f749b0d474d3b7",
+                "reference": "36c71773322360e44cfc94cd65f749b0d474d3b7",
                 "shasum": ""
             },
             "require": {
@@ -5097,7 +5094,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-06T13:39:36+00:00"
+            "time": "2021-06-08T16:55:06+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -8234,16 +8231,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.7.0",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "d1f703d73f782af5427697cdc5023395cd341963"
+                "reference": "77fb31eb48de9971af1fe0c6b47be3da6b869dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/d1f703d73f782af5427697cdc5023395cd341963",
-                "reference": "d1f703d73f782af5427697cdc5023395cd341963",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/77fb31eb48de9971af1fe0c6b47be3da6b869dfd",
+                "reference": "77fb31eb48de9971af1fe0c6b47be3da6b869dfd",
                 "shasum": ""
             },
             "require": {
@@ -8290,7 +8287,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2021-05-25T16:41:13+00:00"
+            "time": "2021-06-08T15:18:38+00:00"
         },
         {
             "name": "maximebf/debugbar",
