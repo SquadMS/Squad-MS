@@ -27,7 +27,7 @@
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
-        "facade/ignition": "^2.10",
+        "facade/ignition": "^2.10.1",
         "fakerphp/faker": "^1.14.1",
         "laravel/sail": "^1.7.0",
         "mockery/mockery": "^1.4.3",
