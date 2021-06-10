@@ -9,7 +9,7 @@
             "name": "Listen for YASD",
             "type": "php",
             "request": "launch",
-            "port": 9000,
+            "port": 9999,
             "pathMappings": {
                 "/var/www/html": "${workspaceRoot}",
             }
