@@ -1695,6 +1695,141 @@
             "time": "2021-02-11T17:58:09+00:00"
         },
         {
+            "name": "jaybizzle/crawler-detect",
+            "version": "v1.2.106",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+                "reference": "78bf6792cbf9c569dc0bf2465481978fd2ed0de9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/78bf6792cbf9c569dc0bf2465481978fd2ed0de9",
+                "reference": "78bf6792cbf9c569dc0bf2465481978fd2ed0de9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5|^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\CrawlerDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "m@rkbee.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+            "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+            "keywords": [
+                "crawler",
+                "crawler detect",
+                "crawler detector",
+                "crawlerdetect",
+                "php crawler detect"
+            ],
+            "support": {
+                "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.106"
+            },
+            "time": "2021-05-24T20:30:32+00:00"
+        },
+        {
+            "name": "jenssegers/agent",
+            "version": "v2.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jenssegers/agent.git",
+                "reference": "daa11c43729510b3700bc34d414664966b03bffe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jenssegers/agent/zipball/daa11c43729510b3700bc34d414664966b03bffe",
+                "reference": "daa11c43729510b3700bc34d414664966b03bffe",
+                "shasum": ""
+            },
+            "require": {
+                "jaybizzle/crawler-detect": "^1.2",
+                "mobiledetect/mobiledetectlib": "^2.7.6",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5.0|^6.0|^7.0"
+            },
+            "suggest": {
+                "illuminate/support": "Required for laravel service providers"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Jenssegers\\Agent\\AgentServiceProvider"
+                    ],
+                    "aliases": {
+                        "Agent": "Jenssegers\\Agent\\Facades\\Agent"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jenssegers\\Agent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jens Segers",
+                    "homepage": "https://jenssegers.com"
+                }
+            ],
+            "description": "Desktop/mobile user agent parser with support for Laravel, based on Mobiledetect",
+            "homepage": "https://github.com/jenssegers/agent",
+            "keywords": [
+                "Agent",
+                "browser",
+                "desktop",
+                "laravel",
+                "mobile",
+                "platform",
+                "user agent",
+                "useragent"
+            ],
+            "support": {
+                "issues": "https://github.com/jenssegers/agent/issues",
+                "source": "https://github.com/jenssegers/agent/tree/v2.6.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jenssegers",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/jenssegers/agent",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-13T08:05:20+00:00"
+        },
+        {
             "name": "laminas/laminas-diactoros",
             "version": "2.6.0",
             "source": {
@@ -2570,6 +2705,68 @@
                 }
             ],
             "time": "2021-04-28T15:31:15+00:00"
+        },
+        {
+            "name": "mobiledetect/mobiledetectlib",
+            "version": "2.8.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/serbanghita/Mobile-Detect.git",
+                "reference": "9841e3c46f5bd0739b53aed8ac677fa712943df7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/9841e3c46f5bd0739b53aed8ac677fa712943df7",
+                "reference": "9841e3c46f5bd0739b53aed8ac677fa712943df7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.35||~5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Mobile_Detect.php"
+                ],
+                "psr-0": {
+                    "Detection": "namespaced/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Serban Ghita",
+                    "email": "serbanghita@gmail.com",
+                    "homepage": "http://mobiledetect.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
+            "homepage": "https://github.com/serbanghita/Mobile-Detect",
+            "keywords": [
+                "detect mobile devices",
+                "mobile",
+                "mobile detect",
+                "mobile detector",
+                "php mobile detect"
+            ],
+            "support": {
+                "issues": "https://github.com/serbanghita/Mobile-Detect/issues",
+                "source": "https://github.com/serbanghita/Mobile-Detect/tree/2.8.37"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/serbanghita",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-02-19T21:22:57+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4892,12 +5089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Default-Theme.git",
-                "reference": "cde31e5f59958b038c81153bc46e878501e83ec0"
+                "reference": "680e9d1d1fbcae90fdc75fc2bfd5b30233756344"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/cde31e5f59958b038c81153bc46e878501e83ec0",
-                "reference": "cde31e5f59958b038c81153bc46e878501e83ec0",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Default-Theme/zipball/680e9d1d1fbcae90fdc75fc2bfd5b30233756344",
+                "reference": "680e9d1d1fbcae90fdc75fc2bfd5b30233756344",
                 "shasum": ""
             },
             "require": {
@@ -4905,6 +5102,9 @@
                 "illuminate/support": "^8.0",
                 "livewire/livewire": "^2.4",
                 "squadms/foundation": "dev-master"
+            },
+            "suggest": {
+                "squadms/servers": "Squad server management module for SquadMS"
             },
             "default-branch": true,
             "type": "library",
@@ -4945,7 +5145,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Default-Theme/issues",
                 "source": "https://github.com/SquadMS/SqMS-Default-Theme/tree/master"
             },
-            "time": "2021-06-10T18:31:44+00:00"
+            "time": "2021-06-11T19:17:04+00:00"
         },
         {
             "name": "squadms/foundation",
@@ -4953,18 +5153,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "b6f5a69c6d286b72fddca8d103c938dd48f538ca"
+                "reference": "442568533c3b3e9b4096e8f54fc98364c1da01cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/b6f5a69c6d286b72fddca8d103c938dd48f538ca",
-                "reference": "b6f5a69c6d286b72fddca8d103c938dd48f538ca",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/442568533c3b3e9b4096e8f54fc98364c1da01cb",
+                "reference": "442568533c3b3e9b4096e8f54fc98364c1da01cb",
                 "shasum": ""
             },
             "require": {
                 "codezero/laravel-localized-routes": "^2.5",
                 "guzzlehttp/guzzle": "^7.0.1",
                 "hihaho/laravel-encryptable-trait": "^1.4",
+                "jenssegers/agent": "^2.6",
                 "laravel/framework": "^8.0",
                 "livewire/livewire": "^2.4.4",
                 "petercoles/multilingual-language-list": "^1.16",
@@ -5030,7 +5231,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-10T17:31:06+00:00"
+            "time": "2021-06-11T19:31:58+00:00"
         },
         {
             "name": "squadms/servers",
@@ -5038,12 +5239,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Servers.git",
-                "reference": "2f5f7ffceb5286377f287d592931cd7480533115"
+                "reference": "95df696b567032ce64b630723d9db1d3c6bf6bf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/2f5f7ffceb5286377f287d592931cd7480533115",
-                "reference": "2f5f7ffceb5286377f287d592931cd7480533115",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Servers/zipball/95df696b567032ce64b630723d9db1d3c6bf6bf1",
+                "reference": "95df696b567032ce64b630723d9db1d3c6bf6bf1",
                 "shasum": ""
             },
             "require": {
@@ -5094,7 +5295,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Servers/issues",
                 "source": "https://github.com/SquadMS/SqMS-Servers/tree/master"
             },
-            "time": "2021-06-10T17:37:44+00:00"
+            "time": "2021-06-11T13:03:07+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -7967,16 +8168,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.10.1",
+            "version": "2.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "508d80f91de953617977e5666f8953669b6e81f2"
+                "reference": "43688227bbf27c43bc1ad83af224f135b6ef0ff4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/508d80f91de953617977e5666f8953669b6e81f2",
-                "reference": "508d80f91de953617977e5666f8953669b6e81f2",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/43688227bbf27c43bc1ad83af224f135b6ef0ff4",
+                "reference": "43688227bbf27c43bc1ad83af224f135b6ef0ff4",
                 "shasum": ""
             },
             "require": {
@@ -8040,7 +8241,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-06-03T21:41:42+00:00"
+            "time": "2021-06-11T06:57:25+00:00"
         },
         {
             "name": "fakerphp/faker",
@@ -9835,16 +10036,16 @@
         },
         {
             "name": "sebastian/global-state",
-            "version": "5.0.2",
+            "version": "5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "a90ccbddffa067b51f574dea6eb25d5680839455"
+                "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/a90ccbddffa067b51f574dea6eb25d5680839455",
-                "reference": "a90ccbddffa067b51f574dea6eb25d5680839455",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/23bd5951f7ff26f12d4e3242864df3e08dec4e49",
+                "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49",
                 "shasum": ""
             },
             "require": {
@@ -9887,7 +10088,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/global-state/issues",
-                "source": "https://github.com/sebastianbergmann/global-state/tree/5.0.2"
+                "source": "https://github.com/sebastianbergmann/global-state/tree/5.0.3"
             },
             "funding": [
                 {
@@ -9895,7 +10096,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-26T15:55:19+00:00"
+            "time": "2021-06-11T13:31:12+00:00"
         },
         {
             "name": "sebastian/lines-of-code",
