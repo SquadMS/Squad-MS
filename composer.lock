@@ -5153,12 +5153,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SquadMS/SqMS-Foundation.git",
-                "reference": "ca5b9e04fa5516bf4257dccb087deece214ef4e3"
+                "reference": "aaf92029c42bc19b04a5803de90db24d2b7a9e3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/ca5b9e04fa5516bf4257dccb087deece214ef4e3",
-                "reference": "ca5b9e04fa5516bf4257dccb087deece214ef4e3",
+                "url": "https://api.github.com/repos/SquadMS/SqMS-Foundation/zipball/aaf92029c42bc19b04a5803de90db24d2b7a9e3b",
+                "reference": "aaf92029c42bc19b04a5803de90db24d2b7a9e3b",
                 "shasum": ""
             },
             "require": {
@@ -5231,7 +5231,7 @@
                 "issues": "https://github.com/SquadMS/SqMS-Foundation/issues",
                 "source": "https://github.com/SquadMS/SqMS-Foundation/tree/master"
             },
-            "time": "2021-06-11T20:05:30+00:00"
+            "time": "2021-06-11T20:35:59+00:00"
         },
         {
             "name": "squadms/servers",
