@@ -17,6 +17,6 @@ class Authenticate extends Middleware
     {
         if (! $request->expectsJson()) {
             return route(Config::get('sqms.routes.def.steam-login.name'));
-        }
+        }        
     }
 }
