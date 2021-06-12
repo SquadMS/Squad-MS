@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use SquadMS\Foundation\Facades\SquadMSRouter;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,5 +12,3 @@ use SquadMS\Foundation\Facades\SquadMSRouter;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-SquadMSRouter::register();

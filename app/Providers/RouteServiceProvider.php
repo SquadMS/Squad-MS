@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 use SquadMS\Foundation\Facades\SquadMSMenu;
-use SquadMS\Foundation\Helpers\NavigationHelper;
 use SquadMS\Foundation\Menu\SquadMSMenuEntry;
 
 class RouteServiceProvider extends ServiceProvider
