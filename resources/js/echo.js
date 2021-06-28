@@ -8,7 +8,8 @@ import Echo from 'laravel-echo';
 
 window.Pusher = require('pusher-js');
 
-window.Echo = new Echo({
+/* Build up Echo configuration */
+const echoConfig = {
     broadcaster: 'pusher',
     key: process.env.MIX_PUSHER_APP_KEY,
     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
@@ -16,4 +17,17 @@ window.Echo = new Echo({
     wsPort: parseInt(process.env.MIX_LARAVEL_WEBSOCKETS_PORT),
     disableStats: true,
     forceTLS: false,
-});
+};
+
+/* Add WAT (if available) */
+const metaWat = document.querySelector("meta[property='wat']");
+if (metaWat) {
+    echoConfig.auth = {
+        headers: {
+            Authorization: 'Bearer ' + metaWat.getAttribute('content'),
+        },
+    };
+}
+
+/* Initialize Echo */
+window.Echo = new Echo(echoConfig);
