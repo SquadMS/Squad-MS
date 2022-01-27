@@ -5,6 +5,7 @@
 /public/mix-manifest.json
 /storage/*.key
 /vendor
+!/vendor/bin/sail
 .env
 .env.backup
 .phpunit.result.cache
