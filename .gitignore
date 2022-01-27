@@ -8,6 +8,7 @@
 !/vendor/bin
 /vendor/bin/*
 !vendor/bin/sail
+composer.lock
 .env
 .env.backup
 .phpunit.result.cache
