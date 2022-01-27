@@ -4,8 +4,10 @@
 /public/js
 /public/mix-manifest.json
 /storage/*.key
-/vendor
-!/vendor/bin/sail
+/vendor/*
+!/vendor/bin
+/vendor/bin/*
+!vendor/bin/sail
 .env
 .env.backup
 .phpunit.result.cache
