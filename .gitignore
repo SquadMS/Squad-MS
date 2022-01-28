@@ -4,10 +4,7 @@
 /public/js
 /public/mix-manifest.json
 /storage/*.key
-/vendor/*
-!/vendor/bin
-/vendor/bin/*
-!vendor/bin/sail
+/vendor
 composer.lock
 .env
 .env.backup
