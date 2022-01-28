@@ -6,13 +6,38 @@
 
 ## About SquadMS
 
-SquadMS, or Squad Management System, is a Laravel based community and squad server management system to accomodate **all** requirements set by OWI for licensed Squad server hosting and take the pain out of Squad server hosting.
+SquadMS, or Squad Management System, is a [Laravel](https://laravel.com/) based community and [Squad](https://joinsquad.com) server management system to accomodate **all** requirements set by [OWI](https://www.offworldindustries.com/) for licensed Squad server hosting and take the pain out of it.
 
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Installation (development)
+
+**Requirements:**
+- macOS, Linux, and Windows (via [WSL2](https://docs.microsoft.com/en-us/windows/wsl/about))
+- [Docker](https://www.docker.com/)
+
+SquadMS coming with an [Laravel Sail](https://laravel.com/docs/8.x/sail) docker environment tailored to it's need. This environment does contain services for MySQL, Redis & HTTP as well as our [SquadMS RCON Worker](https://github.com/SquadMS/SquadMS-RCON-Worker) and has required software such as PHP and NodeJS/NPM installed to run the applications and development scripts.
+
+Since [Laravel Sail](https://laravel.com/docs/8.x/sail) is installed using [Composer](https://getcomposer.org/) it is required that you do install all dependencies before using [Laravel Sail](https://laravel.com/docs/8.x/sail) to run the development environment. Since [Laravel Sail](https://laravel.com/docs/8.x/sail) does require [Docker](https://www.docker.com/) to be installed we can use an intermediade container to do so as [described in the offical documentation on how to install dependencies for existing projects](https://laravel.com/docs/8.x/sail#installing-composer-dependencies-for-existing-projects) - this will install all dependencies using [Composer](https://getcomposer.org/) and [NPM](https://www.npmjs.com/).
+```
+docker run --rm \
+    -u "$(id -u):$(id -g)" \
+    -v $(pwd):/var/www/html \
+    -w /var/www/html \
+    laravelsail/php81-composer:latest \
+    composer install --ignore-platform-reqs
+```
+
+After you have installed all dependencies using [Composer](https://getcomposer.org/) and [NPM](https://www.npmjs.com/) you can use [Laravel Sail](https://laravel.com/docs/8.x/sail) to start the development environment as [described in the documentation](https://laravel.com/docs/8.x/sail#starting-and-stopping-sail) by running the following command:
+```
+sail up -d
+```
+
+It is **highly** recommended that you do read the offical documentation for [Laravel Sail](https://laravel.com/docs/8.x/sail) and [Laravel](https://laravel.com/docs/8.x) for information on any further steps.
 
 ### Partners
 
