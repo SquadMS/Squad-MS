@@ -41,6 +41,17 @@ sail up -d
 
 It is **highly** recommended that you do read the offical documentation for [Laravel Sail](https://laravel.com/docs/8.x/sail) and [Laravel](https://laravel.com/docs/8.x) for information on any further steps.
 
+Now that your [Laravel Sail](https://laravel.com/docs/8.x/sail) environment is running you are able to use it to generate your `APP_KEY` in your .env file. To do so run the following command:
+```
+sail artisan key:generate
+```
+
+Next you will have to install and build the frontend assets using [Laravel Mix](https://laravel-mix.com/docs/6.0/installation). To do so simply run the following commands:
+```
+sail artisan npm install
+sail artisan npm run dev
+```
+
 ### Partners
 
 - **[Deutsche Squad Gemeinschaft](https://dsg-gaming.de/)**
