@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "ethansk.restore-terminals"
+        "ethansk.restore-terminals",
+        "xdebug.php-debug",
+        "bmewburn.vscode-intelephense-client"
     ]
 }
