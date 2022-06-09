@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
-use App\Models\User;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
+use SquadMS\Foundation\Models\SquadMSUser;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -26,7 +26,7 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        Gate::define('viewWebSocketsDashboard', function (?User $user = null) {
+        Gate::define('viewWebSocketsDashboard', function (?SquadMSUser $user = null) {
             return $user && $user->isSystemAdmin();
         });
     }

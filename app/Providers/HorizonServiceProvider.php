@@ -2,10 +2,9 @@
 
 namespace App\Providers;
 
-use App\Models\User;
 use Illuminate\Support\Facades\Gate;
-use Laravel\Horizon\Horizon;
 use Laravel\Horizon\HorizonApplicationServiceProvider;
+use SquadMS\Foundation\Models\SquadMSUser;
 
 class HorizonServiceProvider extends HorizonApplicationServiceProvider
 {
@@ -34,7 +33,7 @@ class HorizonServiceProvider extends HorizonApplicationServiceProvider
      */
     protected function gate()
     {
-        Gate::define('viewHorizon', function (?User $user = null) {
+        Gate::define('viewHorizon', function (?SquadMSUser $user = null) {
             return $user && $user->isSystemAdmin();
         });
     }
