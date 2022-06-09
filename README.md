@@ -22,6 +22,8 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 SquadMS coming with an [Laravel Sail](https://laravel.com/docs/8.x/sail) docker environment tailored to it's need. This environment does contain services for MySQL, Redis & HTTP as well as our [SquadMS RCON Worker](https://github.com/SquadMS/SquadMS-RCON-Worker) and has required software such as PHP and NodeJS/NPM installed to run the applications and development scripts.
 
+In order to start using SquadMS you will first need to create your local environment configuration file by copying the `.env.example` file at the root of this project to `.env`. For now this will suffice.
+
 Since [Laravel Sail](https://laravel.com/docs/8.x/sail) is installed using [Composer](https://getcomposer.org/) it is required that you do install all dependencies before using [Laravel Sail](https://laravel.com/docs/8.x/sail) to run the development environment. Since [Laravel Sail](https://laravel.com/docs/8.x/sail) does require [Docker](https://www.docker.com/) to be installed we can use an intermediade container to do so as [described in the offical documentation on how to install dependencies for existing projects](https://laravel.com/docs/8.x/sail#installing-composer-dependencies-for-existing-projects) - this will install all dependencies using [Composer](https://getcomposer.org/) and [NPM](https://www.npmjs.com/).
 ```
 docker run --rm \

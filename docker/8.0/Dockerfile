@@ -27,7 +27,7 @@ RUN apt-get update \
        php8.0-xml php8.0-zip php8.0-bcmath php8.0-soap \
        php8.0-intl php8.0-readline \
        php8.0-msgpack php8.0-igbinary php8.0-ldap \
-       php8.0-redis php8.0-gmp php8.0-bz2 \
+       php8.0-redis php8.0-gmp php8.0-bz2 php8.0-swoole php8.0-xdebug \
     && php -r "readfile('http://getcomposer.org/installer');" | php -- --install-dir=/usr/bin/ --filename=composer \
     && curl -sL https://deb.nodesource.com/setup_16.x | bash - \
     && apt-get install -y nodejs \
@@ -41,28 +41,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-# Swoole
-RUN pecl channel-update https://pecl.php.net/channel.xml \
-    && pecl install swoole \
-    && pecl clear-cache \
-    && rm -rf /tmp/* /var/tmp/*
-
-# YASD (Yet anothe Swoole debugger)
-ARG INSTALL_YASD=false
-
-RUN if [ "${INSTALL_YASD}" = "true" ]; then \
-    git clone https://github.com/swoole/yasd.git ; \
-    cd yasd ; \
-    phpize --clean ; \
-    phpize ; \
-    ./configure ; \
-    make clean ; \
-    make ; \
-    make install ; \
-    echo "extension=yasd.so" > /etc/php/8.0/cli/conf.d/50_yasd.ini ; \
-    cd .. ; \
-    rm -R yasd ; \
-    fi;
+RUN update-alternatives --set php /usr/bin/php8.0
 
 RUN setcap "cap_net_bind_service=+ep" /usr/bin/php8.0
 
