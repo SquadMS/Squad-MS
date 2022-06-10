@@ -33,6 +33,7 @@ docker run --rm \
     laravelsail/php80-composer:latest \
     composer install --ignore-platform-reqs
 ```
+It is advised that you then configure an bash alias for [Laravel Sail](https://laravel.com/docs/8.x/sail). You can read on how to do so in the [offical documentation](https://laravel.com/docs/9.x/sail#configuring-a-bash-alias). If you do wish to not use a bash alias you will have to substitute `sail` with `vendor/bin/sail` in the following steps.
 
 After you have installed all dependencies using [Composer](https://getcomposer.org/) and [NPM](https://www.npmjs.com/) you can use [Laravel Sail](https://laravel.com/docs/8.x/sail) to start the development environment as [described in the documentation](https://laravel.com/docs/8.x/sail#starting-and-stopping-sail) by running the following command:
 ```
@@ -57,8 +58,13 @@ You will also have to publish all assets provided trought the SquadMS module sys
 sail artisan sqms:publish-assets
 ```
 
-You can now visit the followin URLs to view the local site:
-http://localhost:80   - The Octane version ("supercharged" but requires reload/reboot on changes)
+The first time you run SquadMS or after updating the application you will have to migrate changes to the databse scheme using the following command:
+```
+sail artisan migrate
+```
+
+You can now visit the followin URLs to view the local site:  
+http://localhost:80   - The Octane version ("supercharged" but requires reload/reboot on changes)  
 http://localhost:8080 - The regular version (use this for xDebug as it is not compatible with Octane/Swoole)
 
 ### Partners
