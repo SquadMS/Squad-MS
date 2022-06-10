@@ -33,6 +33,7 @@ docker run --rm \
     laravelsail/php80-composer:latest \
     composer install --ignore-platform-reqs
 ```
+It is advised that you then configure an bash alias for [Laravel Sail](https://laravel.com/docs/8.x/sail). You can read on how to do so in the [offical documentation](https://laravel.com/docs/9.x/sail#configuring-a-bash-alias). If you do wish to not use a bash alias you will have to substitute `sail` with `vendor/bin/sail` in the following steps.
 
 After you have installed all dependencies using [Composer](https://getcomposer.org/) and [NPM](https://www.npmjs.com/) you can use [Laravel Sail](https://laravel.com/docs/8.x/sail) to start the development environment as [described in the documentation](https://laravel.com/docs/8.x/sail#starting-and-stopping-sail) by running the following command:
 ```
