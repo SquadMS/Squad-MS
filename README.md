@@ -58,8 +58,8 @@ You will also have to publish all assets provided trought the SquadMS module sys
 sail artisan sqms:publish-assets
 ```
 
-You can now visit the followin URLs to view the local site:
-http://localhost:80   - The Octane version ("supercharged" but requires reload/reboot on changes)
+You can now visit the followin URLs to view the local site:  
+http://localhost:80   - The Octane version ("supercharged" but requires reload/reboot on changes)  
 http://localhost:8080 - The regular version (use this for xDebug as it is not compatible with Octane/Swoole)
 
 ### Partners
