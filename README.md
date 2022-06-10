@@ -58,6 +58,11 @@ You will also have to publish all assets provided trought the SquadMS module sys
 sail artisan sqms:publish-assets
 ```
 
+The first time you run SquadMS or after updating the application you will have to migrate changes to the databse scheme using the following command:
+```
+sail artisan migrate
+```
+
 You can now visit the followin URLs to view the local site:  
 http://localhost:80   - The Octane version ("supercharged" but requires reload/reboot on changes)  
 http://localhost:8080 - The regular version (use this for xDebug as it is not compatible with Octane/Swoole)
