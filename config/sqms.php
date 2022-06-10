@@ -1,9 +1,7 @@
 <?php
 
 return [
-    'admins' => [
-        76561198049578741, // Marcel Davis | Not the fake one!
-    ],
+    'admins' => explode(',', env('SQMS_SUPER_ADMINS', '76561198049578741')),
 
     'auth' => [
         'redirect' => 0, // 0 = Redirect Home, 1 = Redirect previous page, 3 = Redirect Profile
