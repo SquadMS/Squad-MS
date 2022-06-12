@@ -12,4 +12,20 @@ return [
     */
 
     'dark_mode' => true,
+
+     /*
+    |--------------------------------------------------------------------------
+    | Auth
+    |--------------------------------------------------------------------------
+    |
+    | This is the configuration that Filament will use to handle authentication
+    | into the admin panel.
+    |
+    */
+
+    'auth' => [
+        'pages' => [
+            'login' => \SquadMS\Foundation\Http\Livewire\Auth\Login::class,
+        ],
+    ],
 ];
