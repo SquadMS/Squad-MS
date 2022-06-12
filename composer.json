@@ -21,8 +21,10 @@
         "laravel/octane": "^1.0.3",
         "laravel/tinker": "^2.6.1",
         "livewire/livewire": "^2.4.4",
+        "squadms/adminconfig": "dev-master",
         "squadms/default-theme": "dev-master",
         "squadms/foundation": "dev-master",
+        "squadms/rules": "dev-main",
         "squadms/servers": "dev-master"
     },
     "require-dev": {
