@@ -13,11 +13,6 @@ return [
     |
     */
 
-    'default_locales' => [
-        'en',
-        'de',
-        'ar',
-        'he',
-    ],
+    'default_locales' => config('sqms.locales', []),
 
 ];
