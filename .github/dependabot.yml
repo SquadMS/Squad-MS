@@ -9,7 +9,7 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "security"
+      - "Security"
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
@@ -17,7 +17,7 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "security"
+      - "Security"
 
   # Maintain dependencies for composer
   - package-ecosystem: "composer"
@@ -25,4 +25,4 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "security"
+      - "Security"
