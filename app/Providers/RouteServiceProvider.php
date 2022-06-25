@@ -2,15 +2,14 @@
 
 namespace App\Providers;
 
+use Filament\Facades\Filament;
+use Filament\Navigation\NavigationItem;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
-use SquadMS\Foundation\Facades\SquadMSMenu;
-use SquadMS\Foundation\Menu\SquadMSMenuEntry;
-use SquadMS\Foundation\Models\SquadMSUser;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -64,19 +63,17 @@ class RouteServiceProvider extends ServiceProvider
             return Limit::perMinute(60)->by(optional($request->user())->id ?: $request->ip());
         });
 
-        /* Admin Menu */
-        SquadMSMenu::register(
-            'admin-system',
-            (new SquadMSMenuEntry('horizon.index', '<i class="bi bi-house-fill"></i> Horizon', true))->setView('sqms-foundation::components.navigation.item')
-            ->setCondition(fn () => SquadMSUser::current() && SquadMSUser::current()->isSystemAdmin())
-            ->setOrder(200)
-        );
-
-        SquadMSMenu::register(
-            'admin-system',
-            (new SquadMSMenuEntry(url(Config::get('websockets.path')), '<i class="bi bi-shield-lock-fill"></i> WebSockets'))->setView('sqms-foundation::components.navigation.item')
-            ->setCondition(fn () => SquadMSUser::current() && SquadMSUser::current()->isSystemAdmin())
-            ->setOrder(300)
-        );
+        Filament::registerNavigationItems([
+            NavigationItem::make()
+                ->group('System Management')
+                ->label('Horizon')
+                ->icon('heroicon-o-home')
+                ->url(fn () => route('horizon.index')),
+            NavigationItem::make()
+                ->group('System Management')
+                ->label('WebSockets')
+                ->icon('heroicon-o-home')
+                ->url(fn () => url(Config::get('websockets.path'))),
+        ]);
     }
 }
