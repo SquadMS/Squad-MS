@@ -19,7 +19,7 @@
 		"onecentlin.laravel-blade"
 	],
 	"remoteUser": "sail",
-	"postCreateCommand": "chown -R 1000:1000 /var/www/html"
+	"postCreateCommand": "chown -R 1000:1000 /var/www/html && cp .env.example .env && composer install && npm install && npm run dev"
 	// "forwardPorts": [],
 	// "runServices": [],
 	// "shutdownAction": "none",
