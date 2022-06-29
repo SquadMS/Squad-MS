@@ -1,0 +1,17 @@
+# For more information: https://laravel.com/docs/sail
+version: '3'
+services:
+    laravel.test:
+        env_file: .env.codespace
+    mysql:
+        env_file: .env.codespace
+    redis:
+        env_file: .env.codespace
+networks:
+    sail:
+        driver: bridge
+volumes:
+    sailmysql:
+        driver: local
+    sailredis:
+        driver: local
