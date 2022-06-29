@@ -12,6 +12,7 @@
             "port": 9003,
             "pathMappings": {
                 "/var/www/html": "${workspaceRoot}",
+                "/var/www/SqMS-Foundation": "${workspaceRoot}/vendor/squadms/foundation",
             }
         }
     ]
