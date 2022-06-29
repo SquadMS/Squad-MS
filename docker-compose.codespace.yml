@@ -2,11 +2,11 @@
 version: '3'
 services:
     laravel.test:
-        env_file: .env.codespace
+        env_file: .env.example
     mysql:
-        env_file: .env.codespace
+        env_file: .env.example
     redis:
-        env_file: .env.codespace
+        env_file: .env.example
 networks:
     sail:
         driver: bridge
