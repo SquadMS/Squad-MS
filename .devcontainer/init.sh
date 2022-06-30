@@ -6,7 +6,7 @@ then
     cp .env.example .env
     
     # Set APP_KEY
-    sed "s/^APP_KEY=/APP_KEY=${APP_KEY}/" .env
+    sed "s/^APP_KEY=/APP_KEY=base64:ZEKyyTRYfKC9pYEQuxMEDA4PN6qwxyyhkOibrOMr1s4=/" .env
     
     # Remove blank STEAM_API_KEY (Use GitHub Secrets)
     sed '/^STEAM_API_KEY=/d' .env
