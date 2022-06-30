@@ -4,6 +4,12 @@
 if [ ! -f .env ]
 then
     cp .env.example .env
+    
+    # Remove blank APP_KEY (Use GitHub Secrets)
+    sed '/^APP_KEY=/d' .env
+    
+    # Remove blank STEAM_API_KEY (Use GitHub Secrets)
+    sed '/^STEAM_API_KEY=/d' .env
 fi
 
 # Install Packagist dependencies (without post-* scripts)
