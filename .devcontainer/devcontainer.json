@@ -18,7 +18,7 @@
 		"onecentlin.laravel-blade"
 	],
 	"remoteUser": "sail",
-	"postCreateCommand": "cp .env.example .env && composer install --no-scripts && npm install && npm run dev"
+	"postCreateCommand": ".devcontainer/postCreate.sh"
 	// "forwardPorts": [],
 	// "runServices": [],
 	// "shutdownAction": "none",
