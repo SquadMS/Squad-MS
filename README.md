@@ -31,7 +31,7 @@ docker run --rm \
     -v $(pwd):/var/www/html \
     -w /var/www/html \
     laravelsail/php81-composer:latest \
-    composer install --ignore-platform-reqs
+    composer install --no-scripts --ignore-platform-reqs
 ```
 It is advised that you then configure an bash alias for [Laravel Sail](https://laravel.com/docs/8.x/sail). You can read on how to do so in the [offical documentation](https://laravel.com/docs/9.x/sail#configuring-a-bash-alias). If you do wish to not use a bash alias you will have to substitute `sail` with `vendor/bin/sail` in the following steps.
 
