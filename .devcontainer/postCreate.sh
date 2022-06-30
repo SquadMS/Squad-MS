@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 
-# Configure environment (if it is not already configured)
-if [ ! -f .env ]
-then
-    cp .env.example .env
-fi
-
-# Install Packagist dependencies (without post-* scripts)
-composer install --no-scripts
+# Install Packagist dependencies and run scripts
+composer install
 
 # Install NPM dependencies and build assets
 npm install

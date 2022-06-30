@@ -18,6 +18,7 @@
 		"onecentlin.laravel-blade"
 	],
 	"remoteUser": "sail",
+	"initializeCommand": [".devcontainer/init"],
 	"postCreateCommand": ".devcontainer/postCreate.sh"
 	// "forwardPorts": [],
 	// "runServices": [],
