@@ -10,7 +10,6 @@
 	"settings": {},
 	"extensions": [
 		"bmewburn.vscode-intelephense-client",
-		"ethansk.restore-terminals",
         "xdebug.php-debug",
 		"mikestead.dotenv",
 		"amiralizadeh9480.laravel-extra-intellisense",

@@ -5,7 +5,6 @@
 		}
 	],
 	"settings": {
-		"php.executablePath": "/usr/bin/php8.0",
 		"restoreTerminals.terminals": [
 			{
 				"splitTerminals": [
