@@ -5,8 +5,8 @@ if [ ! -f .env ]
 then
     cp .env.example .env
     
-    # Remove blank APP_KEY (Use GitHub Secrets)
-    sed '/^APP_KEY=/d' .env
+    # Set APP_KEY
+    sed "s/^APP_KEY=/APP_KEY=${APP_KEY}/" .env
     
     # Remove blank STEAM_API_KEY (Use GitHub Secrets)
     sed '/^STEAM_API_KEY=/d' .env
