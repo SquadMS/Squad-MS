@@ -23,6 +23,6 @@
         "tailwindcss-rtl": "^0.9.0"
     },
     "dependencies": {
-        "@squadms/rcon-worker": "^1.0.2"
+        "@squadms/rcon-worker": "^1.0.3"
     }
 }
