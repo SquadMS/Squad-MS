@@ -13,6 +13,7 @@ class TrustProxies extends Middleware
      * @var array|string|null
      */
     protected $proxies;
+    
 
     /**
      * The headers that should be used to detect proxies.
@@ -25,4 +26,18 @@ class TrustProxies extends Middleware
         Request::HEADER_X_FORWARDED_PORT |
         Request::HEADER_X_FORWARDED_PROTO |
         Request::HEADER_X_FORWARDED_AWS_ELB;
+
+    /**
+     * Get the trusted proxies.
+     *
+     * @return array|string|null
+     */
+    protected function proxies()
+    {
+        if (env('LARAVEL_SAIL')) {
+            return '*';
+        } else {
+            return $this->proxies;
+        }
+    }
 }

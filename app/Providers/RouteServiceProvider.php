@@ -69,11 +69,6 @@ class RouteServiceProvider extends ServiceProvider
                 ->label('Horizon')
                 ->icon('heroicon-o-home')
                 ->url(fn () => route('horizon.index')),
-            NavigationItem::make()
-                ->group('System Management')
-                ->label('WebSockets')
-                ->icon('heroicon-o-home')
-                ->url(fn () => url(Config::get('websockets.path'))),
         ]);
     }
 }

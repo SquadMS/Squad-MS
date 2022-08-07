@@ -1,1 +1,0 @@
-<script src="{{ mix('js/echo.js') }}"></script>

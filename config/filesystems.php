@@ -52,6 +52,14 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
+        /* SquadMS will save (public!) images on this disk, configure as like */
+        'images' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/images/'),
+            'url' => env('APP_URL').'/storage/images',
+            'visibility' => 'public',
+        ]
+
     ],
 
     /*
