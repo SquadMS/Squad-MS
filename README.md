@@ -63,6 +63,15 @@ The first time you run SquadMS or after updating the application you will have t
 sail artisan migrate
 ```
 
+Next you will need to add the following line to the hosts file:
+```
+127.0.0.1   squadms.local
+```
+The hosts file can be found at the following location for
+- Linux `/etc/hosts`
+- Mac OS `/private/etc/hosts`
+- Windows `C:\Windows\System32\drivers\etc\hosts`
+
 You can now visit the followin URLs to view the local site:  
 https://squadms.local      - The Octane version ("supercharged" but requires reload/reboot on changes)  
 https://squadms.local:8443 - The regular version (use this for xDebug as it is not compatible with Swoole)
