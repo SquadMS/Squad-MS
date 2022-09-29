@@ -50,8 +50,8 @@ sail artisan key:generate
 
 Next you will have to install and build the frontend assets using [Laravel Mix](https://laravel-mix.com/docs/6.0/installation). To do so simply run the following commands:
 ```
-sail artisan npm install
-sail artisan npm run dev
+sail npm install
+sail npm run dev
 ```
 
 You will also have to publish all assets provided trought the SquadMS module system. This does include any theme or plugin. To do so run the following command:
