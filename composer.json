@@ -29,7 +29,7 @@
         "laravel/sail": "^1.14.10",
         "mockery/mockery": "^1.5.0",
         "nunomaduro/collision": "^6.2",
-        "phpunit/phpunit": "^9.5.20"
+        "phpunit/phpunit": "^10.0.1"
     },
     "autoload": {
         "psr-4": {
