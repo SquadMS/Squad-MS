@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# This command is the last of three that finalizes container setup when a dev container is created. 
+# It happens after updateContentCommand and once the dev container has been assigned to a user for the first time.
+#
+# https://containers.dev/implementors/json_reference/#lifecycle-scripts
+
+# Migrate the database
+./artisan migrate
+
+# Install Packagist dependencies and run scripts
+composer install
+
+# Install NPM dependencies and build assets
+npm install
+npm run dev

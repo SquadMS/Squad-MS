@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
+# A command string or list of command arguments to run on the host machine before the container is created.
+#
+# https://containers.dev/implementors/json_reference/#lifecycle-scripts
+
 # Configure environment (if it is not already configured)
-if [ ! -f .env ]
-then
+if [ ! -f .env ]; then
     cp .env.example .env
     
     # Set APP_KEY
