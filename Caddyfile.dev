@@ -3,7 +3,7 @@ https://squadms.local {
         on_demand
     }
 
-    reverse_proxy http://laravel.test {
+    reverse_proxy http://sqms {
         header_down +Access-Control-Allow-Methods *
         header_down +Access-Control-Allow-Origin *
         header_down +Access-Control-Allow-Headers *
@@ -16,7 +16,7 @@ https://squadms.local:8443 {
         on_demand
     }
 
-    reverse_proxy http://laravel.test:8080 {
+    reverse_proxy http://sqms:8080 {
         header_down +Access-Control-Allow-Methods *
         header_down +Access-Control-Allow-Origin *
         header_down +Access-Control-Allow-Headers *

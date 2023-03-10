@@ -5,20 +5,22 @@
 		"../docker-compose.yml",
 		"../docker-compose.codespace.yml"
 	],
-	"service": "laravel.test",
+	"service": "sqms",
 	"remoteUser": "sail",
 	"workspaceFolder": "/var/www/html",
 	"forwardPorts": [
-		"laravel.test:80",
-        "laravel.test:8080"
+		"sqms:443",
+        "sqms:8443"
 	],
 	"portsAttributes": {
-		"laravel.test:80": {
+		"caddy:443": {
             "label": "Octane",
+			"protocol": "https",
             "elevateIfNeeded": true
         },
-        "laravel.test:8080": {
+        "caddy:8443": {
             "label": "Default",
+			"protocol": "https",
             "elevateIfNeeded": true
         }
 	},
@@ -37,5 +39,5 @@
 		}
 	},
 	"initializeCommand": ".devcontainer/lifecycle/initializeCommand",
-	"postCreateCommand": ".devcontainer/lifecycle/postCreate",
+	"postCreateCommand": ".devcontainer/lifecycle/postCreate"
 }

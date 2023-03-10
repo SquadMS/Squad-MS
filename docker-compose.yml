@@ -14,8 +14,8 @@ services:
         networks:
             - sail
         depends_on:
-            - laravel.test
-    laravel.test:
+            - sqms
+    sqms:
         build:
             context: ./docker/8.1
             dockerfile: Dockerfile

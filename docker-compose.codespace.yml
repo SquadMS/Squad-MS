@@ -1,7 +1,7 @@
 # For more information: https://laravel.com/docs/sail
 version: '3'
 services:
-    laravel.test:
+    sqms:
         env_file: .env.example
     mysql:
         env_file: .env.example
