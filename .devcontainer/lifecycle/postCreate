@@ -7,10 +7,8 @@
 
 # Install dependencies in parallel
 echo "Installing dependencies..."
-(
-    composer install & \
-    npm install
-)
+composer install & \
+npm install
 
 # Migrate the database
 echo "Migrating the database..."
