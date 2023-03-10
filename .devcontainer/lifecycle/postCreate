@@ -5,12 +5,17 @@
 #
 # https://containers.dev/implementors/json_reference/#lifecycle-scripts
 
+# Install dependencies in parallel
+echo "Installing dependencies..."
+(
+    composer install & \
+    npm install
+)
+
 # Migrate the database
+echo "Migrating the database..."
 ./artisan migrate
 
-# Install Packagist dependencies and run scripts
-composer install
-
 # Install NPM dependencies and build assets
-npm install
+echo "Building assets..."
 npm run dev

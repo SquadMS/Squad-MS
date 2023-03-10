@@ -17,4 +17,3 @@ if [ ! -f .env ]; then
     # Remove blank STEAM_API_KEY (Use GitHub Secrets)
     sed -i '/^STEAM_API_KEY=/d' .env
 fi
-
