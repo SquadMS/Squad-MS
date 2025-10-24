@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://github.com/SquadMS/Squad-MS/blob/master/LICENSE"><img src="https://img.shields.io/github/license/SquadMS/Squad-MS" alt="License"></a>
 <a href="https://squadjs.thomas-smyth.uk/discord"><img src="https://img.shields.io/discord/266210223406972928.svg?style=flat-square&logo=discord" alt="Discord"></a>
 </p>
 
