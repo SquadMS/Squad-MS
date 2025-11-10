@@ -9,7 +9,7 @@
         "fruitcake/laravel-cors": "^3.0",
         "guzzlehttp/guzzle": "^7.4.4",
         "laravel/framework": "^9.17",
-        "laravel/horizon": "^5.9.7",
+        "laravel/horizon": "^515.0",
         "laravel/octane": "^1.2.12",
         "laravel/tinker": "^2.7.2",
         "livewire/livewire": "^2.10.5",
