@@ -5,6 +5,7 @@
         "mikestead.dotenv",
         "laravel.vscode-laravel",
         "onecentlin.laravel5-snippets",
-        "onecentlin.laravel-blade"
+        "onecentlin.laravel-blade",
+        "bradlc.vscode-tailwindcss"
     ]
 }
