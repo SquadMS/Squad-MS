@@ -13,7 +13,4 @@ if [ ! -f .env ]; then
 
     # Enable xDebug
     sed -i "s/^SAIL_XDEBUG_MODE=/SAIL_XDEBUG_MODE=debug,develop,profile/" .env
-    
-    # Remove blank STEAM_API_KEY (Use GitHub Secrets)
-    sed -i '/^STEAM_API_KEY=/d' .env
 fi

@@ -1,7 +1,10 @@
 {
     "recommendations": [
-        "ethansk.restore-terminals",
+        "bmewburn.vscode-intelephense-client",
         "xdebug.php-debug",
-        "bmewburn.vscode-intelephense-client"
+        "mikestead.dotenv",
+        "laravel.vscode-laravel",
+        "onecentlin.laravel5-snippets",
+        "onecentlin.laravel-blade"
     ]
 }
