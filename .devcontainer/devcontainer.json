@@ -2,37 +2,35 @@
 {
 	"name": "Existing Docker Compose (Extend)",
 	"dockerComposeFile": [
-		"../docker-compose.yml",
-		"../docker-compose.codespace.yml"
+		"../compose.yaml",
+		"../compose.devcontainer.yaml"
 	],
 	"service": "sqms",
 	"remoteUser": "sail",
 	"workspaceFolder": "/var/www/html",
 	"forwardPorts": [
 		"sqms:443",
-        "sqms:8443"
+		"sqms:8443"
 	],
 	"portsAttributes": {
 		"caddy:443": {
-            "label": "Octane",
+			"label": "Octane",
 			"protocol": "https",
-            "elevateIfNeeded": true
-        },
-        "caddy:8443": {
-            "label": "Default",
+			"elevateIfNeeded": true
+		},
+		"caddy:8443": {
+			"label": "Default",
 			"protocol": "https",
-            "elevateIfNeeded": true
-        }
+			"elevateIfNeeded": true
+		}
 	},
-	
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"bmewburn.vscode-intelephense-client",
 				"xdebug.php-debug",
 				"mikestead.dotenv",
-				"amiralizadeh9480.laravel-extra-intellisense",
-				"ryannaddy.laravel-artisan",
+				"laravel.vscode-laravel",
 				"onecentlin.laravel5-snippets",
 				"onecentlin.laravel-blade"
 			]

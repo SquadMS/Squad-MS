@@ -1,1 +1,1 @@
-<link href="{{ mix('css/app.css') }}" rel="stylesheet">
+@vite('resources/css/app.css')

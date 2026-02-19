@@ -7,13 +7,8 @@
 
 # Install dependencies in parallel
 echo "Installing dependencies..."
-composer install & \
-npm install
+composer install & npm install
 
 # Migrate the database
 echo "Migrating the database..."
-./artisan migrate
-
-# Install NPM dependencies and build assets
-echo "Building assets..."
-npm run dev
+php artisan migrate

@@ -1,5 +1,4 @@
 # For more information: https://laravel.com/docs/sail
-version: '3'
 services:
     caddy:
         image: caddy:2
@@ -9,70 +8,78 @@ services:
             - '${APP_DEBUG_PORT:-8080}:8080'
             - '${APP_DEBUG_HTTPS_PORT:-8443}:8443'
         volumes:
-            - ./Caddyfile.dev:/etc/caddy/Caddyfile
-            - 'sailcaddy:/data'
+            - ./docker/caddy/Caddyfile.dev:/etc/caddy/Caddyfile
+            - 'sail-caddy:/data'
         networks:
             - sail
         depends_on:
             - sqms
     sqms:
         build:
-            context: ./docker/8.1
+            context: ./docker/8.4
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP:-1000}'
-        image: sqms-8.1/squadms
+        image: sqms-8.4/squadms
         extra_hosts:
-            host.docker.internal: host-gateway
+            - 'host.docker.internal:host-gateway'
         expose:
             - '80'
             - '8080'
+        ports:
+            - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
         environment:
             WWWUSER: '${WWWUSER:-1000}'
             LARAVEL_SAIL: 1
             XDEBUG_MODE: '${SAIL_XDEBUG_MODE:-off}'
             XDEBUG_CONFIG: '${SAIL_XDEBUG_CONFIG:-client_host=host.docker.internal}'
+            IGNITION_LOCAL_SITES_PATH: '${PWD}'
         volumes:
             - '.:/var/www/html'
-            - '../SqMS-Foundation:/var/www/SqMS-Foundation'
         networks:
             - sail
         depends_on:
             - mysql
             - redis
     mysql:
-        image: 'mysql:8.0'
+        image: 'mysql:8.4'
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
         environment:
             MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+            MYSQL_ROOT_HOST: "%"
             MYSQL_DATABASE: '${DB_DATABASE}'
             MYSQL_USER: '${DB_USERNAME}'
             MYSQL_PASSWORD: '${DB_PASSWORD}'
-            MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+            MYSQL_ALLOW_EMPTY_PASSWORD: 1
+            MYSQL_EXTRA_OPTIONS: '${MYSQL_EXTRA_OPTIONS:-}'
         volumes:
-            - 'sailmysql:/var/lib/mysql'
+            - 'sail-mysql:/var/lib/mysql'
         networks:
             - sail
         healthcheck:
-          test: ["CMD", "mysqladmin", "ping"]
+            test: ["CMD", "mysqladmin", "ping", "-p${DB_PASSWORD}"]
+            retries: 3
+            timeout: 5s
     redis:
         image: 'redis:alpine'
         ports:
             - '${FORWARD_REDIS_PORT:-6379}:6379'
         volumes:
-            - 'sailredis:/data'
+            - 'sail-redis:/data'
         networks:
             - sail
         healthcheck:
-          test: ["CMD", "redis-cli", "ping"]
+            test: ["CMD", "redis-cli", "ping"]
+            retries: 3
+            timeout: 5s
 networks:
     sail:
         driver: bridge
 volumes:
-    sailcaddy:
+    sail-caddy:
         driver: local
-    sailmysql:
+    sail-mysql:
         driver: local
-    sailredis:
+    sail-redis:
         driver: local

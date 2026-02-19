@@ -1,4 +1,4 @@
-https://squadms.local {
+https://squadms.localhost {
     tls internal {
         on_demand
     }
@@ -10,8 +10,8 @@ https://squadms.local {
     }
 }
 
-http://squadms.local:8080,
-https://squadms.local:8443 {
+http://squadms.localhost:8080,
+https://squadms.localhost:8443 {
     tls internal {
         on_demand
     }
